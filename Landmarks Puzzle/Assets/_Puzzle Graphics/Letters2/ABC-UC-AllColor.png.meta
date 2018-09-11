@@ -1,0 +1,456 @@
+fileFormatVersion: 2
+guid: 36af0fe51d0f30e4b967ab6a624791ee
+timeCreated: 1493394530
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ABC-UC-AllColor_0
+    21300002: ABC-UC-AllColor_1
+    21300004: ABC-UC-AllColor_2
+    21300006: ABC-UC-AllColor_3
+    21300008: ABC-UC-AllColor_4
+    21300010: ABC-UC-AllColor_5
+    21300012: ABC-UC-AllColor_6
+    21300014: ABC-UC-AllColor_7
+    21300016: ABC-UC-AllColor_8
+    21300018: ABC-UC-AllColor_9
+    21300020: ABC-UC-AllColor_10
+    21300022: ABC-UC-AllColor_11
+    21300024: ABC-UC-AllColor_12
+    21300026: ABC-UC-AllColor_13
+    21300028: ABC-UC-AllColor_14
+    21300030: ABC-UC-AllColor_15
+    21300032: ABC-UC-AllColor_16
+    21300034: ABC-UC-AllColor_17
+    21300036: ABC-UC-AllColor_18
+    21300038: ABC-UC-AllColor_19
+    21300040: ABC-UC-AllColor_20
+    21300042: ABC-UC-AllColor_21
+    21300044: ABC-UC-AllColor_22
+    21300046: ABC-UC-AllColor_23
+    21300048: ABC-UC-AllColor_24
+    21300050: ABC-UC-AllColor_25
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: 29
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: 33
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: 13
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1696
+        width: 240
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_1
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1696
+        width: 221
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_2
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1700
+        width: 228
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_3
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1700
+        width: 214
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_4
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1696
+        width: 200
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_5
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1700
+        width: 208
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_6
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1280
+        width: 208
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_7
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1280
+        width: 225
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1282
+        width: 72
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_9
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1280
+        width: 177
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_10
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1282
+        width: 208
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_11
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1280
+        width: 184
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 863
+        width: 274
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_13
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 856
+        width: 216
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_14
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 856
+        width: 205
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_15
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 862
+        width: 202
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_16
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 863
+        width: 192
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_17
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 863
+        width: 203
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 436
+        width: 216
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_19
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 436
+        width: 222
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_20
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 432
+        width: 225
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_21
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 436
+        width: 232
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_22
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 440
+        width: 319
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 18
+        width: 223
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_24
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 18
+        width: 210
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ABC-UC-AllColor_25
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 16
+        width: 245
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
