@@ -430,9 +430,10 @@ MonoBehaviour:
   NextAlpha: C
   AudioLetter: {fileID: 8300000, guid: 31e7bf13bc387fd4287902ff23e432f4, type: 3}
   AudioLetterSound: {fileID: 8300000, guid: 65a10093e9248b74ebd505ddf7afc0b3, type: 3}
-  AudioLetterExamples: []
+  AudioLetterExample: {fileID: 0}
   AssociatedSprite: {fileID: 21300000, guid: bd92966ccc508e84dbc9ced2fb8e4acf, type: 3}
   AssociatedWordValue: Butterfly
+  AssociatedAnimal: {fileID: 0}
 --- !u!114 &114263245275147748
 MonoBehaviour:
   m_ObjectHideFlags: 1

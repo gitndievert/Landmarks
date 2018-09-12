@@ -418,9 +418,10 @@ MonoBehaviour:
   NextAlpha: Z
   AudioLetter: {fileID: 8300000, guid: 19b14d4655730954ab30540a0ce265f8, type: 3}
   AudioLetterSound: {fileID: 8300000, guid: 65a10093e9248b74ebd505ddf7afc0b3, type: 3}
-  AudioLetterExamples: []
+  AudioLetterExample: {fileID: 0}
   AssociatedSprite: {fileID: 21300000, guid: 9d2358656d194f049be596038290f101, type: 3}
   AssociatedWordValue: Yak
+  AssociatedAnimal: {fileID: 0}
 --- !u!114 &114179401051898334
 MonoBehaviour:
   m_ObjectHideFlags: 1

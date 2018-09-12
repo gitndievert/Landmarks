@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_5;UNITY_2018_2;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_5;UNITY_2018_2;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -64,61 +64,6 @@
     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
     <Compile Include="Assets\Editor\MissingPushNotificationEntitlementRemover.cs" />
     <Compile Include="Assets\Editor\PieceEditor.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Cc\BGCcCursorChangeLinearEditor.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Cc\BGCcCursorDrawer.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Cc\BGCcCursorEditor.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Cc\BGCcCursorObjectEditor.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Cc\BGCcCursorObjectRotateEditor.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Cc\BGCcCursorObjectScaleEditor.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Cc\BGCcCursorObjectTranslateEditor.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Cc\BGCcMathEditor.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Cc\BGCcSplitterPolylineEditor.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Cc\BGCcTriangulate2DEditor.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Cc\BGCcVisualizationLineRendererEditor.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Curve\BGCcEditor.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Curve\BGCurveEditor.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Curve\BGCurveEditorComponents.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Curve\BGCurveEditorFields.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Curve\BGCurveEditorPoint.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Curve\BGCurveEditorPoints.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Curve\BGCurveEditorPointsSelection.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Curve\BGCurveEditorSettings.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Curve\BGCurveEditorTab.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Curve\BGCurvePointComponentDrawer.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Curve\BGCurvePointGOEditor.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Curve\BGCurveReferenceToPointEditor.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Curve\BGNewPointPositionManager.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Curve\BGRectangularSelection.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Infra\BGCcAddWindow.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Infra\BGCcChangeNameWindow.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Infra\BGCcChoseDrawer.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Infra\BGCcChoseWindow.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Infra\BGChoseComponentWindow.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Infra\BGCurveChosePointWindow.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Infra\BGCurvePainterGizmo.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Infra\BGCurvePainterHandles.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Infra\BGHandlesSettingsDrawer.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Infra\BGPropertyDrawer.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Infra\BGTransformMonitor.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Overlay\BGOverlayMessage.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Overlay\BGPopupMenu.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Overlay\BGSceneViewOverlay.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Overlay\BGSceneViewOverlayMenu.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Overlay\BGSceneViewOverlayMenuPoint.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Overlay\BGSceneViewOverlayMenuSelection.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Overlay\BGSceneViewOverlayPointAdd.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Overlay\BGSceneViewOverlayPointAddAtDistance.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Overlay\BGSceneViewOverlayPointAddSnap2D.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Overlay\BGSceneViewOverlayPointAddSnap3D.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Settings\BGCurveSettingsForEditor.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Settings\BGCurveSettingsForEditorWindow.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Settings\BGCurveSettingsOperations.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Settings\BGCurveSettingsSO.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Utils\BGEditorUtility.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Utils\BGPrivateField.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Utils\BGStartUp.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Utils\BGTransition.cs" />
-    <Compile Include="Assets\WPAssets\BansheeGz\BGCurve\Scripts\Editor\Utils\BGTreeView.cs" />
     <Compile Include="Assets\WPAssets\Grumble AMP\Editor\grumbleAMPEditor.cs" />
     <Compile Include="Assets\WPAssets\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
     <Compile Include="Assets\WPAssets\JMO Assets\Cartoon FX\Editor\CFX_InspectorHelpEditor.cs" />
@@ -385,6 +330,21 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>F:/Programs/Unity3D/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="WP8Native">
+      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/Plugins/WP8Native.dll</HintPath>
+    </Reference>
+    <Reference Include="WP8PopUps">
+      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/Plugins/WP8PopUps.dll</HintPath>
+    </Reference>
+    <Reference Include="WSANative">
+      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/Plugins/WSANative.dll</HintPath>
+    </Reference>
+    <Reference Include="JMOAssets">
+      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/WPAssets/JMO Assets/Editor/JMOAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>C:/Users/Nate/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/Nate/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -402,18 +362,6 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
-    </Reference>
-    <Reference Include="JMOAssets">
-      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/WPAssets/JMO Assets/Editor/JMOAssets.dll</HintPath>
-    </Reference>
-    <Reference Include="WP8PopUps">
-      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/Plugins/WP8PopUps.dll</HintPath>
-    </Reference>
-    <Reference Include="WP8Native">
-      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/Plugins/WP8Native.dll</HintPath>
-    </Reference>
-    <Reference Include="WSANative">
-      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/Plugins/WSANative.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>F:/Programs/Unity3D/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

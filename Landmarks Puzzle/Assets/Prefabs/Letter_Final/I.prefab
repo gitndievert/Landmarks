@@ -331,9 +331,10 @@ MonoBehaviour:
   NextAlpha: J
   AudioLetter: {fileID: 8300000, guid: 98a4288d3a4b17548a72cce87365e48e, type: 3}
   AudioLetterSound: {fileID: 8300000, guid: 65a10093e9248b74ebd505ddf7afc0b3, type: 3}
-  AudioLetterExamples: []
+  AudioLetterExample: {fileID: 0}
   AssociatedSprite: {fileID: 21300000, guid: f437d0efee2c1be4a89a1b1d97a6ce0f, type: 3}
   AssociatedWordValue: Iguana
+  AssociatedAnimal: {fileID: 0}
 --- !u!114 &114508462412321738
 MonoBehaviour:
   m_ObjectHideFlags: 1

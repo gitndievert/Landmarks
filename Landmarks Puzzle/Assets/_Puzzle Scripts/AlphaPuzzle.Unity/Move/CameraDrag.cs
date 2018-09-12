@@ -20,7 +20,7 @@ public class CameraDrag : MonoBehaviour
     private Vector3 _difference;
     private bool _drag;
     
-    void LateUpdate()
+    void Update()
     {
         if(LockCamera || !GameState.DragEnabled) return;
         Camera camera = Camera.main;

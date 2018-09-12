@@ -2670,6 +2670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NodeList: []
   SelectedEffect: {fileID: 100000, guid: 4813da6bfa5e94ac682f6d270a12d4b5, type: 2}
+  LetterComplete: {fileID: 0}
 --- !u!114 &114201038955010422
 MonoBehaviour:
   m_ObjectHideFlags: 1

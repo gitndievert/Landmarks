@@ -77,8 +77,7 @@ public class AdMobBanners : PSingle<AdMobBanners>
         var request = new AdRequest.Builder()
              .TagForChildDirectedTreatment(true)
              .AddTestDevice(AdRequest.TestDeviceSimulator)
-             .AddTestDevice(AdConfiguration.AdMob.TestDeviceId)
-             .Build();
+             .Build();        
         _bannerView.LoadAd(request);
     }
     

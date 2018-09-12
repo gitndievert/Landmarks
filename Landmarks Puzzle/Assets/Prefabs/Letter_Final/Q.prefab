@@ -553,9 +553,10 @@ MonoBehaviour:
   NextAlpha: R
   AudioLetter: {fileID: 8300000, guid: b4f39a5b2e721c14aaf65f5660f216cc, type: 3}
   AudioLetterSound: {fileID: 8300000, guid: 65a10093e9248b74ebd505ddf7afc0b3, type: 3}
-  AudioLetterExamples: []
+  AudioLetterExample: {fileID: 0}
   AssociatedSprite: {fileID: 21300000, guid: 17032b34f90ae7e49b63d7d35768eb9c, type: 3}
   AssociatedWordValue: Queen Bee
+  AssociatedAnimal: {fileID: 0}
 --- !u!114 &114980016507952400
 MonoBehaviour:
   m_ObjectHideFlags: 1

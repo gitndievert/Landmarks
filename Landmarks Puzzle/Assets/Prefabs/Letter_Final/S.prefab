@@ -505,9 +505,10 @@ MonoBehaviour:
   NextAlpha: T
   AudioLetter: {fileID: 8300000, guid: 46683f41ba211ba49b769ef9aed10c4f, type: 3}
   AudioLetterSound: {fileID: 8300000, guid: 65a10093e9248b74ebd505ddf7afc0b3, type: 3}
-  AudioLetterExamples: []
+  AudioLetterExample: {fileID: 0}
   AssociatedSprite: {fileID: 21300000, guid: 3d1c9455ad55d7e4699513ede03b91f3, type: 3}
   AssociatedWordValue: Snail
+  AssociatedAnimal: {fileID: 0}
 --- !u!114 &114138215624558088
 MonoBehaviour:
   m_ObjectHideFlags: 1

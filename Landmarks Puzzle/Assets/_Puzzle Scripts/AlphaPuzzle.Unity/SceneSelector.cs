@@ -11,7 +11,7 @@ public class SceneSelector : DSingle<SceneSelector>
     public Node CurrentNode;    
     public BoardType CurrentBoard = BoardType.Adventure;
     public float CameraMoveSpeed = 0.3f;
-    public bool IsCameraLocked = true;
+    public bool IsCameraLocked = true;    
 
     public GameObject InGameUI;
     public GameObject MapViewUI;
@@ -164,8 +164,7 @@ public class SceneSelector : DSingle<SceneSelector>
         if (CurrentBoard != BoardType.FreeMap) return;
         foreach (var node in NodeManager.Instance.NodeList)
         {
-            node.CanSelect = true;
-            node.IsCompleted = true;
+            node.CanSelect = true;            
         }
         var treasure = GameObject.FindGameObjectsWithTag("Treasure");
         foreach (var t in treasure)

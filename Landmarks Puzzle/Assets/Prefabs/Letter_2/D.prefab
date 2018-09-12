@@ -425,7 +425,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf559cfd38192f4ab88f7682ba24666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrderInLayer: 2
   Drag: {fileID: 0}
 --- !u!114 &11422726
 MonoBehaviour:
@@ -438,7 +437,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf559cfd38192f4ab88f7682ba24666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrderInLayer: 2
   Drag: {fileID: 0}
 --- !u!114 &11450878
 MonoBehaviour:
@@ -451,7 +449,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf559cfd38192f4ab88f7682ba24666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrderInLayer: 2
   Drag: {fileID: 0}
 --- !u!114 &11452112
 MonoBehaviour:
@@ -468,8 +465,10 @@ MonoBehaviour:
   NextAlpha: E
   AudioLetter: {fileID: 8300000, guid: d6a48da087254404aa147c1665407e62, type: 3}
   AudioLetterSound: {fileID: 8300000, guid: 65a10093e9248b74ebd505ddf7afc0b3, type: 3}
-  AudioLetterExamples: []
-  AnimExamplePrefab: {fileID: 0}
+  AudioLetterExample: {fileID: 0}
+  AssociatedSprite: {fileID: 0}
+  AssociatedWordValue: 
+  AssociatedAnimal: {fileID: 0}
 --- !u!114 &11464158
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -481,7 +480,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf559cfd38192f4ab88f7682ba24666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrderInLayer: 2
   Drag: {fileID: 0}
 --- !u!114 &11465418
 MonoBehaviour:
@@ -494,7 +492,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf559cfd38192f4ab88f7682ba24666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrderInLayer: 2
   Drag: {fileID: 0}
 --- !u!212 &21208328
 SpriteRenderer:

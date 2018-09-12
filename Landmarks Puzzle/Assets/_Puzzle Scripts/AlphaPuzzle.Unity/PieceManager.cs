@@ -189,8 +189,7 @@ public class PieceManager : BoardManager<PieceManager>
         SceneSelector.Instance.MoveToMapBoard(_pieceParent.AlphaName);
         yield return new WaitForSeconds(1f);
         if (GameState.LoadBoard != BoardType.FreeMap)
-        {
-            SceneSelector.Instance.CurrentNode.IsCompleted = true;
+        {            
             SceneSelector.Instance.MoveToMapBoard(_pieceParent.NextAlpha, true);
         }        
         yield return null;

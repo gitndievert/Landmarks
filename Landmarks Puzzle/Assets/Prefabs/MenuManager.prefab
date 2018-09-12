@@ -51,3 +51,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a32d2e8479efcd44bb35c5650732161f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OpenApk: 0
+  GooglePlayStoreUrl: 
+  IOSStoreUrl: 
+  AmazonStoreUrl: 
+  LoadingScreen: {fileID: 0}

@@ -74,6 +74,7 @@ GameObject:
   - component: {fileID: 223182345625381482}
   - component: {fileID: 114733705323525642}
   - component: {fileID: 114476396984180576}
+  - component: {fileID: 114718701593386094}
   m_Layer: 0
   m_Name: Credits
   m_TagString: Untagged
@@ -148,6 +149,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114476396984180576
@@ -193,6 +205,17 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114718701593386094
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1612547088389896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 061089ec434840e4ea01718d1fdcc97c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114733705323525642
 MonoBehaviour:
   m_ObjectHideFlags: 1

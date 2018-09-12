@@ -541,9 +541,10 @@ MonoBehaviour:
   NextAlpha: END
   AudioLetter: {fileID: 8300000, guid: b568d5831531d54478bc9d925310b2e5, type: 3}
   AudioLetterSound: {fileID: 8300000, guid: 65a10093e9248b74ebd505ddf7afc0b3, type: 3}
-  AudioLetterExamples: []
+  AudioLetterExample: {fileID: 0}
   AssociatedSprite: {fileID: 21300000, guid: 83314f20e93fc864cb32839f55b7217a, type: 3}
   AssociatedWordValue: Zebra
+  AssociatedAnimal: {fileID: 0}
 --- !u!114 &114539441601870482
 MonoBehaviour:
   m_ObjectHideFlags: 1

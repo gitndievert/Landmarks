@@ -138,10 +138,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8daa7696dc0616044a8afdecff20bcb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MusicClips:
-  - {fileID: 8300000, guid: 1815dffe697ff7c429a2b8d1769f346f, type: 3}
-  - {fileID: 8300000, guid: f2b8edbeb1d7ffa49886cdc5b00eed06, type: 3}
-  - {fileID: 8300000, guid: ef7b51b0a73e8134abb260a0b0966692, type: 3}
   FadeOutTime: 0
   FadeInTime: 0
   MusicEnabled: 1
@@ -157,20 +153,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Motivations:
-  - {fileID: 8300000, guid: f473ac70a481a5b49910c3265e239ea4, type: 3}
-  - {fileID: 8300000, guid: 253fc11b1a1d82841b54c07f66fe59e1, type: 3}
-  - {fileID: 8300000, guid: be8d4cece5a46da4dbd14bcbdc5298e0, type: 3}
-  - {fileID: 8300000, guid: e20d2ead8bd78884190959b1e8da7a4d, type: 3}
-  - {fileID: 8300000, guid: 0deb504827a6c504a9d49c0c12a88738, type: 3}
-  - {fileID: 8300000, guid: 7bcc0b3264c71d6438e2726ef989c14d, type: 3}
-  - {fileID: 8300000, guid: fdf1e91433cd1024ba565f90d175cc9b, type: 3}
-  - {fileID: 8300000, guid: 8047a773cd5c0da43b205b645653663f, type: 3}
-  - {fileID: 8300000, guid: ce4c6fe18e098434e9a99a74a16d3fd8, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   PopNoise: {fileID: 8300000, guid: a8ba706502d5fae49b9e39dfa011eae9, type: 3}
   Instructions: {fileID: 8300000, guid: 2dd9d46ceab563f48a7a8c1ac04544fe, type: 3}
   ScatterNoise: {fileID: 8300000, guid: 5fb5b80224ef8a649bee2fd9741277ce, type: 3}
   PartyNoises: []
   Clapping: {fileID: 8300000, guid: 0c6d5c92c429e094498aa07282a596f6, type: 3}
+  Instructions2: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

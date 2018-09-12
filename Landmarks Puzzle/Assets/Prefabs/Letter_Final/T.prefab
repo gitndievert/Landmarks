@@ -454,9 +454,10 @@ MonoBehaviour:
   NextAlpha: U
   AudioLetter: {fileID: 8300000, guid: 6f20a423eb7abe4448ab0856ccf1a774, type: 3}
   AudioLetterSound: {fileID: 8300000, guid: 65a10093e9248b74ebd505ddf7afc0b3, type: 3}
-  AudioLetterExamples: []
+  AudioLetterExample: {fileID: 0}
   AssociatedSprite: {fileID: 21300000, guid: fe2aacf022bdf1248a63ccf70de1ea3b, type: 3}
   AssociatedWordValue: Turtle
+  AssociatedAnimal: {fileID: 0}
 --- !u!114 &114952543287701858
 MonoBehaviour:
   m_ObjectHideFlags: 1

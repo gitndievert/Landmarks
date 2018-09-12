@@ -69,3 +69,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartBannerAds: 1
   TestAds: 1
+  PlacementID: video

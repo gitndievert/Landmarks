@@ -541,9 +541,10 @@ MonoBehaviour:
   NextAlpha: L
   AudioLetter: {fileID: 8300000, guid: 313cc0976f521914f8a038645de5ff4c, type: 3}
   AudioLetterSound: {fileID: 8300000, guid: 65a10093e9248b74ebd505ddf7afc0b3, type: 3}
-  AudioLetterExamples: []
+  AudioLetterExample: {fileID: 0}
   AssociatedSprite: {fileID: 21300000, guid: 23e9b52acb394f7438b0c70a34bde6c7, type: 3}
   AssociatedWordValue: Kangaroo
+  AssociatedAnimal: {fileID: 0}
 --- !u!114 &114429669325781318
 MonoBehaviour:
   m_ObjectHideFlags: 1

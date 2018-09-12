@@ -8,6 +8,7 @@ public class MenuManager : MonoBehaviour
     public string GooglePlayStoreUrl;
     public string IOSStoreUrl;
     public string AmazonStoreUrl;
+    public string MapSceneName = "WorldMap";
 
     public GameObject LoadingScreen;
 
@@ -27,22 +28,20 @@ public class MenuManager : MonoBehaviour
     public void OnClick_LoadAdventureMode()
     {
         //Notifications.Instance.PopNotification("This is a test");
-        //Notifications.Instance.ScheduleNotification("Adventure Puzzle ABC", "Make your way to the tresure!", 60);
-        GameState.LoadBoard = BoardType.Adventure;
+        //Notifications.Instance.ScheduleNotification("Adventure Puzzle ABC", "Make your way to the tresure!", 60);        
         //UnityAdServices.Instance.ShowAd();
-        LoadMap();
+        LoadMap(BoardType.Adventure);
     }
 
     public void OnClick_LoadFreePlayMode()
-    {        
-        GameState.LoadBoard = BoardType.FreeMap;
-        LoadMap();
+    {   
+        LoadMap(BoardType.FreeMap);
     }
 
     public void OnClick_LoadMainMenu()
     {
         GameState.LoadBoard = BoardType.Menu;
-        SceneManager.UnloadSceneAsync("SplitPuzzle");
+        SceneManager.UnloadSceneAsync(MapSceneName);
         SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
     }
 
@@ -64,9 +63,10 @@ public class MenuManager : MonoBehaviour
             OnClick_OpenURL("");
     }
     
-    private void LoadMap()
+    private void LoadMap(BoardType board)
     {
+        GameState.LoadBoard = board;
         LoadingScreen.SetActive(true);
-        SceneManager.LoadScene("SplitPuzzle", LoadSceneMode.Single);
+        SceneManager.LoadScene(MapSceneName, LoadSceneMode.Single);
     }
 }

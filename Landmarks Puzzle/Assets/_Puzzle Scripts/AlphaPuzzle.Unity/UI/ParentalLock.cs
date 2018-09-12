@@ -3,9 +3,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ParentalLock : MonoBehaviour
+public class ParentalLock : UIPanel
 {
-
     public TextMeshProUGUI Problem;
     public InputField UserSolution;
     private int min = 3;
@@ -20,9 +19,9 @@ public class ParentalLock : MonoBehaviour
         GenerateProblem();
     }
 
-    void OnEnable()
+    protected override void OnEnable()
     {
-        GameState.DragEnabled = false;
+        base.OnEnable();
         GenerateProblem();
     }    
 

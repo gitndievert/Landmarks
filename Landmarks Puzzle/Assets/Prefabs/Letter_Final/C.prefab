@@ -454,9 +454,10 @@ MonoBehaviour:
   NextAlpha: D
   AudioLetter: {fileID: 8300000, guid: f3a92c3810982234ca11a09c0251692f, type: 3}
   AudioLetterSound: {fileID: 8300000, guid: 65a10093e9248b74ebd505ddf7afc0b3, type: 3}
-  AudioLetterExamples: []
+  AudioLetterExample: {fileID: 0}
   AssociatedSprite: {fileID: 21300000, guid: e5a20c735051da048a054ad0bb38d598, type: 3}
   AssociatedWordValue: Camel
+  AssociatedAnimal: {fileID: 0}
 --- !u!114 &114882053949060464
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -303,6 +303,7 @@ GameObject:
   - component: {fileID: 223946332061960664}
   - component: {fileID: 114995923050139092}
   - component: {fileID: 114907324237925524}
+  - component: {fileID: 114771158874251630}
   m_Layer: 0
   m_Name: RateApp1
   m_TagString: Untagged
@@ -1000,6 +1001,17 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114771158874251630
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1888616328620258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 061089ec434840e4ea01718d1fdcc97c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114812165748117044
 MonoBehaviour:
   m_ObjectHideFlags: 1

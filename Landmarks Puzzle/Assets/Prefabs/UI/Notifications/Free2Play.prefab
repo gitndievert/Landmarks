@@ -300,6 +300,7 @@ GameObject:
   - component: {fileID: 223514419463485604}
   - component: {fileID: 114382053066613526}
   - component: {fileID: 114152262364268820}
+  - component: {fileID: 114421711574400086}
   m_Layer: 0
   m_Name: Free2Play
   m_TagString: Untagged
@@ -928,6 +929,17 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114421711574400086
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1799279143403494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 061089ec434840e4ea01718d1fdcc97c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114474463467405446
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -6,9 +6,7 @@ using SBK.Unity;
 public class NodeManager : PSingle<NodeManager>
 {
     public List<Node> NodeList;
-    public GameObject SelectedEffect;
-    public AudioClip LetterComplete;
-
+    
     protected override void PAwake()
     {
         if (NodeList != null && NodeList.Count == 0)

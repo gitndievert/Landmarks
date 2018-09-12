@@ -553,9 +553,10 @@ MonoBehaviour:
   NextAlpha: O
   AudioLetter: {fileID: 8300000, guid: 698f8bb2cac4b9d4da0010f52985e43b, type: 3}
   AudioLetterSound: {fileID: 8300000, guid: 65a10093e9248b74ebd505ddf7afc0b3, type: 3}
-  AudioLetterExamples: []
+  AudioLetterExample: {fileID: 0}
   AssociatedSprite: {fileID: 21300000, guid: b735ac9f6a331c34db66df4303341846, type: 3}
   AssociatedWordValue: Newt
+  AssociatedAnimal: {fileID: 0}
 --- !u!114 &114835134856009922
 MonoBehaviour:
   m_ObjectHideFlags: 1

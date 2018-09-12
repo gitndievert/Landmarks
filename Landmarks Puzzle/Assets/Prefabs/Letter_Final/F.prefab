@@ -529,9 +529,10 @@ MonoBehaviour:
   NextAlpha: G
   AudioLetter: {fileID: 8300000, guid: a39cb84c592b1e94bbe965d8ad29cfc2, type: 3}
   AudioLetterSound: {fileID: 8300000, guid: 65a10093e9248b74ebd505ddf7afc0b3, type: 3}
-  AudioLetterExamples: []
+  AudioLetterExample: {fileID: 0}
   AssociatedSprite: {fileID: 21300000, guid: b6acd962fb12f4c41a00d8f1b6888867, type: 3}
   AssociatedWordValue: Fox
+  AssociatedAnimal: {fileID: 0}
 --- !u!114 &114771407857329518
 MonoBehaviour:
   m_ObjectHideFlags: 1

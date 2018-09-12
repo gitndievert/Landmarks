@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 223254870111632210}
   - component: {fileID: 114456352022116634}
   - component: {fileID: 114487854737715842}
+  - component: {fileID: 114219192324377828}
   m_Layer: 0
   m_Name: ReturnToMap
   m_TagString: Untagged
@@ -274,6 +275,17 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114219192324377828
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1381953062908626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 061089ec434840e4ea01718d1fdcc97c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114231566558604006
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/MainMenu.unity
+    guid: b04804f65988dfd42afb9c6ea8d408e8
+  - enabled: 1
+    path: Assets/Scenes/SplitPuzzle.unity
+    guid: 30460ede156cdb14d868716269c88f70
+  - enabled: 1
+    path: Assets/Scenes/WorldMap.unity
+    guid: 87ac60f5870abf04d9f8a75b28481941
   m_configObjects: {}

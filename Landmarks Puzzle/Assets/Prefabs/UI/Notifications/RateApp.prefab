@@ -91,6 +91,7 @@ GameObject:
   - component: {fileID: 223266744490813210}
   - component: {fileID: 114115993797377350}
   - component: {fileID: 114673986992793042}
+  - component: {fileID: 114344713635838992}
   m_Layer: 0
   m_Name: RateApp
   m_TagString: Untagged
@@ -806,6 +807,17 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &114344713635838992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1313721999540514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 061089ec434840e4ea01718d1fdcc97c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114382968415251170
 MonoBehaviour:
   m_ObjectHideFlags: 1

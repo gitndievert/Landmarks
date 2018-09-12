@@ -111,9 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PieceCollection: {fileID: 142076, guid: 9b28876ce1707c04e81e5e4e002aed18, type: 2}
-  PieceList: []
   SplitTimerSec: 0.45
-  SecToNextPiece: 2
   PresetSplitPositions:
   - {x: 7.95, y: 5.57, z: 0}
   - {x: 6.07, y: -4.3, z: 0}
@@ -123,7 +121,9 @@ MonoBehaviour:
   - {x: -0.8, y: 7, z: 0}
   - {x: 9.24, y: 0.77, z: 0}
   - {x: -10.89, y: 0.77, z: 0}
+  AssociatedText: {fileID: 0}
   PiecePopEffect: {fileID: 100000, guid: d321a98408cfc4e0299808f65181aab4, type: 2}
+  PuzzleWinEffects: []
 --- !u!212 &212366534063792152
 SpriteRenderer:
   m_ObjectHideFlags: 1

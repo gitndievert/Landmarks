@@ -5,19 +5,14 @@ using AlphaPuzzle.State;
 public class Music : PSingle<Music>, IAudio
 {    
     public static int MusicIndex { get; set; }
-    public float VolumeLevel { get; set; }
-
-    public float FadeOutTime = 3f;
+    public float VolumeLevel { get; set; }        
     public float FadeInTime = 3f;    
-
     public const float FadeStopTime = 0.5f;
 
     [HideInInspector]
     public bool MusicEnabled = true;
 
-
     private grumbleAMP _grumble;
-
 
     protected override void PAwake()
     {
@@ -27,7 +22,7 @@ public class Music : PSingle<Music>, IAudio
     protected override void PDestroy()
     {
 
-    }
+    }        
 
     void Update()
     {
@@ -63,38 +58,28 @@ public class Music : PSingle<Music>, IAudio
         MusicIndex = index;
 
         if (MusicEnabled)
-        {
-            //MusicManager.play(MusicClips[MusicIndex], FadeOutTime, FadeInTime);
-            //_mp.playMusic(MusicClips[MusicIndex], FadeOutTime, FadeInTime);
+        {            
             _grumble.PlaySong(index, 0, FadeInTime);
         }
     }
 
     public void PauseTrack()
-    {
-        //MusicManager.pause();
-        //_mp.pauseMusic();
+    {        
         _grumble.Pause();
     }
 
     public void UnPauseTrack()
-    {
-        //MusicManager.unpause();
-        //_mp.unpauseMusic();
+    {     
         _grumble.UnPause();
     }
 
     public void StopMusic()
-    {
-        //MusicManager.stop(FadeStopTime);
-        //_mp.stopMusic(FadeStopTime);
+    {   
         _grumble.StopAll(FadeStopTime);
     }
 
     public void Volume(float percent)
-    {
-        //MusicManager.setVolume(percent);
-        //_mp.setMusicVolume(percent, 0f);
+    {   
         _grumble.setGlobalVolume(percent);
         GameState.SettingsData.MusicVolume = percent;
         VolumeLevel = percent;

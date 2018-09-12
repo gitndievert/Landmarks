@@ -871,7 +871,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -903,7 +903,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -935,7 +935,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -967,7 +967,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -999,7 +999,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1031,7 +1031,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1063,7 +1063,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1097,19 +1097,11 @@ MonoBehaviour:
     showPointMenu: 1
     showTangents: 0
     tangentsSize: 0.608
-    tangentsColor:
-      r: 1
-      g: 1
-      b: 1
-      a: 1
+    tangentsColor: {r: 1, g: 1, b: 1, a: 1}
     tangentsPerSection: 1
     controlType: 0
     vRay: 1
-    lineColor:
-      r: 0.58431375
-      g: 0.8000001
-      b: 0.20000002
-      a: 1
+    lineColor: {r: 0.58431375, g: 0.8000001, b: 0.20000002, a: 1}
     showPointControlType: 1
     showPointPosition: 1
     showHandles: 1
@@ -1125,24 +1117,12 @@ MonoBehaviour:
       PlanesScale: 1
       Alpha: 1
     showLabels: 0
-    labelColor:
-      r: 1
-      g: 1
-      b: 1
-      a: 1
+    labelColor: {r: 1, g: 1, b: 1, a: 1}
     showPositions: 0
-    labelColorSelected:
-      r: 0
-      g: 1
-      b: 0
-      a: 1
+    labelColorSelected: {r: 0, g: 1, b: 0, a: 1}
     showSpheres: 1
     sphereRadius: 0.1
-    sphereColor:
-      r: 1
-      g: 0
-      b: 0
-      a: 1
+    sphereColor: {r: 1, g: 0, b: 0, a: 1}
     showPointControlPositions: 1
     showControlHandles: 1
     controlHandlesType: 0
@@ -1156,18 +1136,10 @@ MonoBehaviour:
       AxisScale: 0.7083125
       PlanesScale: 0.7
       Alpha: 0.7
-    controlHandlesColor:
-      r: 0
-      g: 1
-      b: 1
-      a: 1
+    controlHandlesColor: {r: 0, g: 1, b: 1, a: 1}
     showControlLabels: 1
     showControlPositions: 0
-    labelControlColor:
-      r: 1
-      g: 0.92156863
-      b: 0.015686275
-      a: 1
+    labelControlColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
     showTransformField: 1
     existing: 1
   mode2D: 1
@@ -1207,6 +1179,7 @@ MonoBehaviour:
   snapAxis: 0
   snapDistance: 9.6
   snapLayerMask:
+    serializedVersion: 2
     m_Bits: 4294967295
   snapTriggerInteraction: 0
   snapToBackFaces: 0
@@ -1231,7 +1204,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1263,7 +1236,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1295,7 +1268,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1327,7 +1300,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1359,7 +1332,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1391,7 +1364,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1433,11 +1406,7 @@ MonoBehaviour:
     m_TypeName: BansheeGz.BGSpline.Components.BGCcMath+MathChangedEvent, Assembly-CSharp,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   spheresScale: 1
-  spheresColor:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
+  spheresColor: {r: 1, g: 1, b: 1, a: 1}
   spheresCount: 100
 --- !u!114 &114344153829781348
 MonoBehaviour:
@@ -1457,7 +1426,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1489,7 +1458,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1521,7 +1490,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1553,7 +1522,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1585,7 +1554,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1617,7 +1586,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1649,7 +1618,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1681,7 +1650,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1713,7 +1682,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1745,7 +1714,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1777,7 +1746,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1809,7 +1778,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1841,7 +1810,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1873,7 +1842,7 @@ MonoBehaviour:
   pointTransform: {fileID: 0}
   curve: {fileID: 114106370497018028}
   fieldsValues:
-  - boolValues: []
+  - boolValues: 
     intValues: 
     floatValues: []
     stringValues: []
@@ -1907,11 +1876,7 @@ MonoBehaviour:
   doNotOptimizeStraightLines: 0
   useLocal: 0
   spheresScale: 1
-  spheresColor:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
+  spheresColor: {r: 1, g: 1, b: 1, a: 1}
   spheresCount: 100
   updateAtStart: 0
 --- !u!120 &120412489306548890

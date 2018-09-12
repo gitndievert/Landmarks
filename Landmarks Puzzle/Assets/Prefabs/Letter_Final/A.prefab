@@ -442,9 +442,10 @@ MonoBehaviour:
   NextAlpha: B
   AudioLetter: {fileID: 8300000, guid: d92e71fb8b1d2ff41a96436e06256522, type: 3}
   AudioLetterSound: {fileID: 8300000, guid: 65a10093e9248b74ebd505ddf7afc0b3, type: 3}
-  AudioLetterExamples: []
+  AudioLetterExample: {fileID: 0}
   AssociatedSprite: {fileID: 21300000, guid: fa614ba40cc53a34ca0685e011a5507e, type: 3}
   AssociatedWordValue: Alligator
+  AssociatedAnimal: {fileID: 0}
 --- !u!114 &114369486903603232
 MonoBehaviour:
   m_ObjectHideFlags: 1

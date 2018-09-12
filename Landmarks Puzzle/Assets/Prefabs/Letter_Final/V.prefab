@@ -418,9 +418,10 @@ MonoBehaviour:
   NextAlpha: W
   AudioLetter: {fileID: 8300000, guid: 4c45523b2d5f3d14fa1318d5fb0f60f5, type: 3}
   AudioLetterSound: {fileID: 8300000, guid: 65a10093e9248b74ebd505ddf7afc0b3, type: 3}
-  AudioLetterExamples: []
+  AudioLetterExample: {fileID: 0}
   AssociatedSprite: {fileID: 21300000, guid: e0c605fbfc9859a4a849d8b27cee6f6b, type: 3}
   AssociatedWordValue: Vulture
+  AssociatedAnimal: {fileID: 0}
 --- !u!114 &114074310431418336
 MonoBehaviour:
   m_ObjectHideFlags: 1
