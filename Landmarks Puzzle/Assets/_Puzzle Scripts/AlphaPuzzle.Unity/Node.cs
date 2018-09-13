@@ -1,16 +1,17 @@
 ﻿using UnityEngine;
 using AlphaPuzzle.State;
 
+[RequireComponent(typeof(CircleCollider2D))]
 public class Node : MonoBehaviour
 {
     public string Name;    
     public bool CanSelect = false;
         
-    private SceneSelector _scene;
+    private SceneSelector _scene;    
 
     void Awake()
     {
-        Name = transform.name;        
+        Name = transform.name;
     }
 
     void Start()
