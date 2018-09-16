@@ -62,10 +62,10 @@ public class PieceManager : BoardManager<PieceManager>
                 SoundManager.PlaySound(SoundManager.Instance.Clapping,2);
                 var letterQueue = new[]
                 {
-                    SoundManager.Instance.GetRandomMotivation,
+                    SoundManager.Instance.GetRandomMotivation/*,
                     _pieceParent.AudioLetter,
                     _pieceParent.AudioLetterSound,
-                    _pieceParent.AudioLetterExample
+                    _pieceParent.AudioLetterExample*/
                 };
 
                 float totalSec = 0f,soundDelay = 0.8f;
@@ -119,7 +119,10 @@ public class PieceManager : BoardManager<PieceManager>
         if (_pieceParent == null)
             throw new Exception("No piece parent assigned to puzzle piece parent container");
         //var node = NodeManager.Instance.PullMapLetter(_pieceParent.AlphaName);
-        SelectPuzzle(_pieceParent.NextAlpha);
+        
+        
+        //TODO: Replace with back to map logic
+        //SelectPuzzle(_pieceParent.NextAlpha);
     }
 
     public void StartNextPuzzle(string letter)
@@ -130,7 +133,7 @@ public class PieceManager : BoardManager<PieceManager>
     private void StartPuzzle()
     {        
         _associatedPieces = PiecePrefab.GetComponentsInChildren<PuzzlePiece>();        
-        SoundManager.PlaySound(_pieceParent.AudioLetter, 2);
+        SoundManager.PlaySound(_pieceParent.AudioDescription, 2);
         Invoke("StartScramble", 1.0f);
         _waitForPuzzle = false;
     }
@@ -152,13 +155,13 @@ public class PieceManager : BoardManager<PieceManager>
         return PresetSplitPositions.OrderBy(x => r.Next()).ToArray();        
     }  
 
-    private GameObject CreateAnimal()
+    /*private GameObject CreateAnimal()
     {
         var animal = Instantiate(_pieceParent.AssociatedAnimal);
         animal.transform.parent = transform;
         animal.GetComponent<Renderer>().sortingOrder = 5;
         return animal;
-    }
+    }*/
     
     private IEnumerator AddLetterAssociation(float timerDelay, float moveToMapSec)
     {
@@ -170,28 +173,27 @@ public class PieceManager : BoardManager<PieceManager>
 
         Particles.FireParticle(PuzzleWinEffects[0], _pieceParent.transform.position);
         _pieceAnim.Play();
-        _animal = CreateAnimal();
+        //_animal = CreateAnimal();
         /*Animal Animations go here*/
         yield return new WaitForSeconds(timerDelay);
-        _aText.text = _pieceParent.AssociatedWordValue;
-        //_aWordText.transform.position = new Vector3(PieceParentPos.x + 13f, PieceParentPos.y -0.5f, PieceParentPos.z);
+        //_aText.text = _pieceParent.AssociatedWordValue;        
         StartCoroutine(MoveToNextMapLetter(moveToMapSec));                
     }
     
     private IEnumerator MoveToNextMapLetter(float startDelaySec)
     {
         yield return new WaitForSeconds(startDelaySec);        
-        if (_pieceParent.NextAlpha == "END" && GameState.LoadBoard == BoardType.Adventure)
+        /*if (_pieceParent.NextAlpha == "END" && GameState.LoadBoard == BoardType.Adventure)
         {
             SceneSelector.Instance.MoveToVictoryBoard();
             yield break;                
-        }
-        SceneSelector.Instance.MoveToMapBoard(_pieceParent.AlphaName);
+        }*/
+        //SceneSelector.Instance.MoveToMapBoard(_pieceParent.AlphaName);
         yield return new WaitForSeconds(1f);
-        if (GameState.LoadBoard != BoardType.FreeMap)
+        /*if (GameState.LoadBoard != BoardType.FreeMap)
         {            
             SceneSelector.Instance.MoveToMapBoard(_pieceParent.NextAlpha, true);
-        }        
+        } */       
         yield return null;
     }      
      
