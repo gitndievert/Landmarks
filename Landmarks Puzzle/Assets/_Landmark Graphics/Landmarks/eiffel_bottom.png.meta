@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: b3d8ade1cc3367f4cb9de305f4dc3402
+guid: 5192c24c12cb27849a1a5b31646e9034
 TextureImporter:
   fileIDToRecycleName:
-    21300000: eiffel_bottom_0
-    21300002: eiffel_bottom_1
-    21300004: eiffel_bottom_2
-    21300006: eiffel_bottom_3
-    21300008: eiffel_bottom_4
+    21300000: eiffel_bottom 1_0
+    21300002: eiffel_bottom 1_1
+    21300004: eiffel_bottom 1_2
+    21300006: eiffel_bottom 1_3
+    21300008: eiffel_bottom 1_4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -86,17 +86,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -111,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: eiffel_bottom_0
+      name: eiffel_bottom 1_0
       rect:
         serializedVersion: 2
         x: 35
@@ -125,57 +114,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 738416467ce9f964a9b738de4d4ba200
+      spriteID: 60fc58f4949f36942b30e9f596f3486f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eiffel_bottom_1
+      name: eiffel_bottom 1_1
       rect:
         serializedVersion: 2
-        x: 1038
-        y: 850
-        width: 985
-        height: 608
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd48ea7a688ec2846923e269c4970529
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eiffel_bottom_2
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 82
-        width: 205
-        height: 1032
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b912063f4030d748867c922829ebe46
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eiffel_bottom_3
-      rect:
-        serializedVersion: 2
-        x: 473
-        y: 260
+        x: 1275
+        y: 1317
         width: 379
         height: 593
       alignment: 0
@@ -185,13 +134,53 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f9b8e2c687f1f74fade4d02a3137791
+      spriteID: 68abc4037f257564caa175ec7abebd5e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eiffel_bottom_4
+      name: eiffel_bottom 1_2
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 980
+        width: 205
+        height: 1032
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df49f994abe908419d2826781240665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eiffel_bottom 1_3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 560
+        width: 986
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686293d70b2d39f45bc3d4075a91c8b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eiffel_bottom 1_4
       rect:
         serializedVersion: 2
         x: 1020
@@ -205,7 +194,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19dddd2f957ce034da0f448ba58f95d0
+      spriteID: 1db8360983c19b344b39e1ad3a874812
       vertices: []
       indices: 
       edges: []
@@ -213,7 +202,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7a9cceeca925874458400b49dfd43ec7
+    spriteID: f7067a76de8803e498a7c0d764f24f12
     vertices: []
     indices: 
     edges: []

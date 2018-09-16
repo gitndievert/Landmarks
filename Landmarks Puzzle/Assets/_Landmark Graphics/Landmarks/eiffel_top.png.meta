@@ -86,17 +86,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -115,9 +104,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 35
-        y: 1217
+        y: 1216
         width: 1041
-        height: 772
+        height: 773
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,7 +114,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8941dfb2c635f0f4e946cab1a284b0b0
+      spriteID: 94a71302a749dbe45b7b61ea83fcab26
       vertices: []
       indices: 
       edges: []
@@ -134,48 +123,8 @@ TextureImporter:
       name: eiffel_top_1
       rect:
         serializedVersion: 2
-        x: 1036
-        y: 848
-        width: 987
-        height: 610
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90f4f77c349f9e94086ad26c5e355867
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eiffel_top_2
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 82
-        width: 208
-        height: 1032
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cfe75ba6cc671c74db3b69cb8478e2a7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eiffel_top_3
-      rect:
-        serializedVersion: 2
-        x: 472
-        y: 260
+        x: 1248
+        y: 1375
         width: 380
         height: 593
       alignment: 0
@@ -185,7 +134,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ef7cb721329cf04497bbfa6c7357b4d
+      spriteID: b97db2b5c86d8674d905f2c63bd92416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eiffel_top_2
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 944
+        width: 205
+        height: 1032
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d8752fe080956469d9b00573bc8e15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eiffel_top_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 480
+        width: 986
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac2779bbb6a8f04c90ac3f01b88cff2
       vertices: []
       indices: 
       edges: []
@@ -205,7 +194,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33d02b682422108479236a8030039453
+      spriteID: 17b98b66152c236408a4773e5848d238
       vertices: []
       indices: 
       edges: []
@@ -213,7 +202,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 400306430ddfda5428fabf4a7e86c0e5
+    spriteID: 247f76d54db4a704782a626b681725ad
     vertices: []
     indices: 
     edges: []

@@ -87,17 +87,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +115,33 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c79e9fbcbd1a06f46a8fe947060ee785
+      spriteID: 3799181d7f9c8174192954f6c817ac2d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: empire_top_1
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1452
+        width: 528
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdf26b657954034bb44b4657eb03b1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: empire_top_2
       rect:
         serializedVersion: 2
         x: 1732
@@ -146,13 +155,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16405f3935f45924a8f3162ab3761a36
+      spriteID: b27edff289b43a14395d3418fe464688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: empire_top_2
+      name: empire_top_3
       rect:
         serializedVersion: 2
         x: 32
@@ -166,13 +175,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be122ecd9c3c1414496380e23e0b0320
+      spriteID: c5d849a851619b240ada4363f7f345a0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: empire_top_3
+      name: empire_top_4
       rect:
         serializedVersion: 2
         x: 464
@@ -186,17 +195,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffab4677547b54b49ad0c5323a4780f5
+      spriteID: db6d0b225ac291a42b8486f324e1c82e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: empire_top_4
+      name: empire_top_5
       rect:
         serializedVersion: 2
-        x: 687
-        y: 18
+        x: 1034
+        y: 78
         width: 411
         height: 1060
       alignment: 0
@@ -206,27 +215,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6b1a4cf59e7e3241ab561bfa21519cd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: empire_top_5
-      rect:
-        serializedVersion: 2
-        x: 992
-        y: 767
-        width: 528
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e90b6f217ebd614eb031850dbb72b29
+      spriteID: 6874c5344db2a75428e3b855ab1bd7e3
       vertices: []
       indices: 
       edges: []
@@ -234,7 +223,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 77893fc9e524ea645ac217870c781343
+    spriteID: b4182d0b233fc334a8e50cc9bb5f4f82
     vertices: []
     indices: 
     edges: []
