@@ -63,7 +63,6 @@
   <ItemGroup>
     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
     <Compile Include="Assets\Editor\MissingPushNotificationEntitlementRemover.cs" />
-    <Compile Include="Assets\Editor\PieceEditor.cs" />
     <Compile Include="Assets\WPAssets\Grumble AMP\Editor\grumbleAMPEditor.cs" />
     <Compile Include="Assets\WPAssets\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
     <Compile Include="Assets\WPAssets\JMO Assets\Cartoon FX\Editor\CFX_InspectorHelpEditor.cs" />

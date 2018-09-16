@@ -522,7 +522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22c9b790fb05c2946982787687f3a0ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LandmarkName: 
+  LandmarkName: bigben
   AudioDescription: {fileID: 0}
   AudioLocation: {fileID: 0}
 --- !u!114 &114702701776051500
@@ -676,7 +676,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300008, guid: 101884a49c4d20e4da6e7b3159c19135, type: 3}
+  m_Sprite: {fileID: 21300008, guid: 5eb68b965c431ed4a9650e1eb88cbc92, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
