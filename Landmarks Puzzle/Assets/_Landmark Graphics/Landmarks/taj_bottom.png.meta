@@ -9,7 +9,6 @@ TextureImporter:
     21300008: taj_bottom_4
     21300010: taj_bottom_5
     21300012: taj_bottom_6
-    21300014: taj_bottom_7
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -128,7 +127,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88da169d42a6c954bb605c05122f03c0
+      spriteID: 8ffd3633919815c488bc891f87d60b98
       vertices: []
       indices: 
       edges: []
@@ -148,7 +147,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae0c2748adc63c847a07d0dc3177460d
+      spriteID: e2064c5fcbe39bf409783d8ba5e292e1
       vertices: []
       indices: 
       edges: []
@@ -158,9 +157,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1778
-        y: 887
+        y: 884
         width: 250
-        height: 1122
+        height: 1125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,7 +167,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 671b3bbb7b81b594a8c09d515df0769d
+      spriteID: 18ce8f37bff0a4040995f11a61de3587
       vertices: []
       indices: 
       edges: []
@@ -177,9 +176,9 @@ TextureImporter:
       name: taj_bottom_3
       rect:
         serializedVersion: 2
-        x: 23
+        x: 24
         y: 739
-        width: 756
+        width: 755
         height: 590
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -188,7 +187,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c93ebf9450869264ba68be9292940d42
+      spriteID: e36f3b19789306c45985f5295043bd78
       vertices: []
       indices: 
       edges: []
@@ -197,10 +196,10 @@ TextureImporter:
       name: taj_bottom_4
       rect:
         serializedVersion: 2
-        x: 1571
-        y: 1139
-        width: 10
-        height: 4
+        x: 900
+        y: 10
+        width: 400
+        height: 1125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,53 +207,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48f7c2956de5eb043a7673527841337b
+      spriteID: b9e39aa82bec7a645b2bbdd61e140d53
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: taj_bottom_5
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 17
-        width: 478
-        height: 598
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5119dd6f14d8349479c206fd381076bc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: taj_bottom_6
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 8
-        width: 400
-        height: 1127
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b52fc03756187240b6e6f21dfae6f28
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: taj_bottom_7
       rect:
         serializedVersion: 2
         x: 1404
@@ -268,7 +227,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85dd61ece9124bc40b49545181a81295
+      spriteID: f5e18521f4243eb48936b3399808bb38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taj_bottom_6
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 17
+        width: 478
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda9d82d164a125408fb98b5d05f7d80
       vertices: []
       indices: 
       edges: []
@@ -276,7 +255,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 3e8ffe4b27ffa7749b6cd434ec8a955f
+    spriteID: a64208d22ebd9c34f852b624f73dd96b
     vertices: []
     indices: 
     edges: []
