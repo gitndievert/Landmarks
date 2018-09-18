@@ -29,9 +29,8 @@ public class Music : PSingle<Music>, IAudio
         if (SceneSelector.Instance == null || _grumble == null) return;
         int jungleTrack = (int)MusicTracks.Jungle;
         switch (SceneSelector.Instance.CurrentBoard)
-        {
-            case BoardType.Adventure:
-            case BoardType.FreeMap:
+        {            
+            case BoardType.World:
                 if (MusicIndex == 0 || MusicIndex == 2)
                 {
                     UnPauseTrack();

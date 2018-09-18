@@ -9,7 +9,7 @@ public class SceneSelector : DSingle<SceneSelector>
 {
     public bool StartPuzzle = false;
     public Node CurrentNode;    
-    public BoardType CurrentBoard = BoardType.Adventure;
+    public BoardType CurrentBoard = BoardType.World;
     public float CameraMoveSpeed = 0.3f;
     public bool IsCameraLocked = true;    
 
@@ -86,7 +86,7 @@ public class SceneSelector : DSingle<SceneSelector>
         MapViewUI.SetActive(false);        
     }
 
-    public void MoveToVictoryBoard()
+    /*public void MoveToVictoryBoard()
     {
         StopAllCoroutines();
         CurrentBoard = BoardType.Victory;
@@ -103,7 +103,7 @@ public class SceneSelector : DSingle<SceneSelector>
         InGameUI.SetActive(false);
         MapViewUI.SetActive(false);
         PuzzleView.SetActive(false);
-    }
+    }*/
 
     private void TriggerWinEvents()
     {
@@ -159,7 +159,7 @@ public class SceneSelector : DSingle<SceneSelector>
         PuzzleView.SetActive(false);
     }
 
-    public void UnlockMapBoard()
+    /*public void UnlockMapBoard()
     {
         if (CurrentBoard != BoardType.FreeMap) return;
         foreach (var node in NodeManager.Instance.NodeList)
@@ -169,13 +169,11 @@ public class SceneSelector : DSingle<SceneSelector>
         var treasure = GameObject.FindGameObjectsWithTag("Treasure");
         foreach (var t in treasure)
             t.SetActive(false);
-    }
+    }*/
 
     public void MoveToStartBoard()
     {
-        CurrentBoard = _selectedBoardType;
-        if (_selectedBoardType == BoardType.FreeMap)
-            UnlockMapBoard();
+        CurrentBoard = _selectedBoardType;        
         IsCameraLocked = false;
         Camera.main.transform.position = _mapStartingPos;
         Music.Instance.PlayMusicTrack(MusicTracks.Jazzy);

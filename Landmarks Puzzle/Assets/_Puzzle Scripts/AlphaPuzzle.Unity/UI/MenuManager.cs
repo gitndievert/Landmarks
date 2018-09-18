@@ -25,18 +25,16 @@ public class MenuManager : MonoBehaviour
         GameState.SaveData();
     }
     
-    public void OnClick_LoadAdventureMode()
+    public void OnClick_LoadWorld()
     {
         //Notifications.Instance.PopNotification("This is a test");
         //Notifications.Instance.ScheduleNotification("Adventure Puzzle ABC", "Make your way to the tresure!", 60);        
         //UnityAdServices.Instance.ShowAd();
-        LoadMap(BoardType.Adventure);
+        GameState.LoadBoard = BoardType.World;
+        LoadingScreen.SetActive(true);
+        SceneManager.LoadScene(MapSceneName, LoadSceneMode.Single);
     }
-
-    public void OnClick_LoadFreePlayMode()
-    {   
-        LoadMap(BoardType.FreeMap);
-    }
+       
 
     public void OnClick_LoadMainMenu()
     {
@@ -61,12 +59,5 @@ public class MenuManager : MonoBehaviour
             OnClick_OpenURL("");
         else
             OnClick_OpenURL("");
-    }
-    
-    private void LoadMap(BoardType board)
-    {
-        GameState.LoadBoard = board;
-        LoadingScreen.SetActive(true);
-        SceneManager.LoadScene(MapSceneName, LoadSceneMode.Single);
-    }
+    }  
 }
