@@ -16,8 +16,7 @@ public class SceneSelector : DSingle<SceneSelector>
     public GameObject InGameUI;
     public GameObject MapViewUI;
     public GameObject PuzzleView;
-    public GameObject HandAnimation;
-    public VictoryParent VictoryParent { get; private set; }
+    public GameObject HandAnimation;    
 
     private BoardType _selectedBoardType;
     private readonly string[] _selectedFreeLetter = new string[2];
@@ -28,8 +27,7 @@ public class SceneSelector : DSingle<SceneSelector>
     private readonly Vector3 _mapStartingPos = new Vector3(77.5f,15.5f,-10f);
     
     protected override void PAwake()
-    {
-        VictoryParent = gameObject.transform.Find("VictoryBoard").GetComponent<VictoryParent>();
+    {        
         TriggerAdImpression();
     }
 
@@ -41,14 +39,9 @@ public class SceneSelector : DSingle<SceneSelector>
     void Start()
     {
         GameState.LoadData();
-        if (CurrentNode.name == "A")
-        {
-            CurrentNode.CanSelect = false;
-            GameState.DragEnabled = true;
-            if (HandAnimation != null)
-                StartCoroutine("DisplayHand");
-        }
-
+        GameState.DragEnabled = true;
+        if (HandAnimation != null)
+            StartCoroutine("DisplayHand");
         StartGameScene(GameState.LoadBoard);
     }
 
@@ -145,8 +138,7 @@ public class SceneSelector : DSingle<SceneSelector>
                 Transform t = l.transform;
                 Vector3 camPoint = new Vector3(t.position.x,t.position.y, -10.0f);
                 MoveCamera(camPoint, lerp);
-                CurrentNode = l;
-                CurrentNode.CanSelect = true;
+                CurrentNode = l;                
                 //Banner ads
                 if (banner.StartBannerAds && _selectedFreeLetter.Contains(letter))                
                     Notifications.Instance.InGameNotification(InGameNotificationTypes.FreetoPay);                

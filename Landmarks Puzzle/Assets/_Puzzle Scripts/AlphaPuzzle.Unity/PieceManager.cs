@@ -78,26 +78,26 @@ public class PieceManager : BoardManager<PieceManager>
         }       
     }
     
-    public void SelectPuzzle(string letter)
+    public void SelectPuzzle(string landmark)
     {
         if(PieceCollection == null) return;
-        if (PiecePrefab != null)
+        /*if (PiecePrefab != null)
         {
             Destroy(PiecePrefab.gameObject);
             _pieceParent = null;
             _aText.text = "";
             if (_animal != null)
                 Destroy(_animal);
-        }
+        }*/
         foreach(var obj in PieceCollection.transform)
         {
             var go = ((Transform)obj).gameObject;
-            if (go.name.ToUpper() == letter.ToUpper())
+            if (go.name.ToUpper() == landmark.ToUpper())
             {
                 PiecePrefab = Instantiate(go);
                 PiecePrefab.transform.parent = transform;                           
                 _pieceParent = PiecePrefab.GetComponent<PieceParent>();
-                _pieceAnim = PiecePrefab.GetComponent<Animation>();
+                //_pieceAnim = PiecePrefab.GetComponent<Animation>();
             }
         }     
            
@@ -131,7 +131,8 @@ public class PieceManager : BoardManager<PieceManager>
     }
 
     private void StartPuzzle()
-    {        
+    {
+        var blah = PiecePrefab;
         _associatedPieces = PiecePrefab.GetComponentsInChildren<PuzzlePiece>();        
         SoundManager.PlaySound(_pieceParent.AudioDescription, 2);
         Invoke("StartScramble", 1.0f);

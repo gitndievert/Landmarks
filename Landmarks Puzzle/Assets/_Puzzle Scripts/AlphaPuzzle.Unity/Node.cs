@@ -4,8 +4,7 @@ using AlphaPuzzle.State;
 [RequireComponent(typeof(CircleCollider2D))]
 public class Node : MonoBehaviour
 {
-    public string Name;    
-    public bool CanSelect = false;
+    public string Name;        
         
     private SceneSelector _scene;    
 
@@ -41,7 +40,7 @@ public class Node : MonoBehaviour
     
     void OnMouseDown()
     {
-        if (!CanSelect || !GameState.DragEnabled) return;
+        if (!GameState.DragEnabled) return;
         if (_scene.HandAnimation != null)
             _scene.HandAnimation.SetActive(false);
         _scene.MoveToPuzzleBoard();
