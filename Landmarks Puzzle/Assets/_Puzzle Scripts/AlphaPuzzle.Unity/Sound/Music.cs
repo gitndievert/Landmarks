@@ -16,7 +16,7 @@ public class Music : PSingle<Music>, IAudio
 
     protected override void PAwake()
     {
-        _grumble = gameObject.GetComponent<grumbleAMP>();
+        _grumble = GetComponent<grumbleAMP>();
     }
 
     protected override void PDestroy()

@@ -47,8 +47,7 @@ public class SceneSelector : DSingle<SceneSelector>
 
     public void StartGameScene(BoardType gameBoardType)
     {
-        _selectedBoardType = gameBoardType;
-        GameState.Victory = false;
+        _selectedBoardType = gameBoardType;        
         MoveToStartBoard();        
         //Banner Ads
         AdMobBanners.Instance.ShowAdBanner();
@@ -123,7 +122,7 @@ public class SceneSelector : DSingle<SceneSelector>
         }*/
     }
 
-    public void MoveToMapBoard(string letter, bool lerp = false)
+    /*public void MoveToMapBoard(string letter, bool lerp = false)
     {
         if (string.IsNullOrEmpty(letter)) return;
         CurrentBoard = _selectedBoardType;
@@ -149,7 +148,7 @@ public class SceneSelector : DSingle<SceneSelector>
         InGameUI.SetActive(false);
         MapViewUI.SetActive(true);
         PuzzleView.SetActive(false);
-    }
+    }*/
 
     /*public void UnlockMapBoard()
     {

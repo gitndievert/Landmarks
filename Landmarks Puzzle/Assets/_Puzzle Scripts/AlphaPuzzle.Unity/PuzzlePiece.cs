@@ -12,7 +12,7 @@ public class PuzzlePiece : PieceBase
     public PuzzleDrag Drag;
     
     protected override void Awake()
-    {       
+    {
         Drag = gameObject.AddComponent<PuzzleDrag>();
         Drag.AttachedPiece = this;
         base.Awake();
@@ -37,7 +37,8 @@ public class PuzzlePiece : PieceBase
   
     public void SplitPuzzle(float splitTime, Vector3 splitposition)
     {        
-        SplitPosition = splitposition;  
+        SplitPosition = splitposition;
+        SetFinalPosition();
         StopAllCoroutines();      
         StartCoroutine(transform.Lerp(SplitPosition, splitTime));
         Drag.CanSelect = true;

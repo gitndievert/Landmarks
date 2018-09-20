@@ -10,7 +10,7 @@ public static partial class Extensions
         //Disable Drags
         while (true)
         {
-            GameState.DragEnabled = false;
+            //GameState.DragEnabled = false;
             time += Time.deltaTime * speedInSec;
             trans.position = Vector3.Lerp(trans.position, targetPosition, time);
 

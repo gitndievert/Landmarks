@@ -16,10 +16,5 @@ public class NodeManager : PSingle<NodeManager>
     protected override void PDestroy()
     {
 
-    }
-
-    public Node PullMapLetter(string letter)
-    {
-        return NodeList.FirstOrDefault(l => l.name.ToUpper() == letter.ToUpper());
-    }
+    }   
 }

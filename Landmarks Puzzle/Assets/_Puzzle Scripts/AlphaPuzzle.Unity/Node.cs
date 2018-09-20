@@ -7,16 +7,9 @@ public class Node : MonoBehaviour
     public string Name;        
         
     private SceneSelector _scene;    
-
-    void Awake()
-    {
-        Name = transform.name;
-    }
-
+    
     void Start()
-    {
-        /*if (Name == "A")        
-            CanSelect = true;*/
+    {        
         _scene = SceneSelector.Instance;
     }
     

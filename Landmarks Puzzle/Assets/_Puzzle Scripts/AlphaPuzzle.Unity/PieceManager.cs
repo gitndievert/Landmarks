@@ -43,6 +43,7 @@ public class PieceManager : BoardManager<PieceManager>
     protected override void PAwake()
     {
         _aText = AssociatedText.GetComponent<TextMeshProUGUI>();
+        PiecePrefab = null;
     }
 
     protected override void PDestroy()
@@ -56,7 +57,7 @@ public class PieceManager : BoardManager<PieceManager>
         //Then start next Puzzle
         if (PiecePrefab != null)
         {
-            if (CheckForWin() && !_waitForPuzzle && !GameState.Victory)
+            if (CheckForWin() && !_waitForPuzzle)
             {
                 _waitForPuzzle = true;
                 SoundManager.PlaySound(SoundManager.Instance.Clapping,2);
@@ -81,14 +82,6 @@ public class PieceManager : BoardManager<PieceManager>
     public void SelectPuzzle(string landmark)
     {
         if(PieceCollection == null) return;
-        /*if (PiecePrefab != null)
-        {
-            Destroy(PiecePrefab.gameObject);
-            _pieceParent = null;
-            _aText.text = "";
-            if (_animal != null)
-                Destroy(_animal);
-        }*/
         foreach(var obj in PieceCollection.transform)
         {
             var go = ((Transform)obj).gameObject;
@@ -131,10 +124,9 @@ public class PieceManager : BoardManager<PieceManager>
     }
 
     private void StartPuzzle()
-    {
-        var blah = PiecePrefab;
+    {        
         _associatedPieces = PiecePrefab.GetComponentsInChildren<PuzzlePiece>();        
-        SoundManager.PlaySound(_pieceParent.AudioDescription, 2);
+        SoundManager.PlaySound(_pieceParent.AudioDescription, 2);                
         Invoke("StartScramble", 1.0f);
         _waitForPuzzle = false;
     }
@@ -194,7 +186,10 @@ public class PieceManager : BoardManager<PieceManager>
         /*if (GameState.LoadBoard != BoardType.FreeMap)
         {            
             SceneSelector.Instance.MoveToMapBoard(_pieceParent.NextAlpha, true);
-        } */       
+        } */
+
+        
+        //SceneSelector.Instance.MoveToMapBoard(_pieceParent.NextAlpha, true);
         yield return null;
     }      
      

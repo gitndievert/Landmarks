@@ -3196,30 +3196,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224860998215773656, guid: f5f88ffb642880a479bce853ac4aafb6,
     type: 2}
   m_PrefabInternal: {fileID: 841240021}
---- !u!1 &1632955861 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 149410, guid: bd73bc5d75dcf864396d1056bd48bcd8,
-    type: 2}
-  m_PrefabInternal: {fileID: 1758013719}
---- !u!114 &1632955862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1632955861}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0044b2a1fe8c73146950efed70f39ac3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  songs:
-  - {fileID: 1191964953}
-  - {fileID: 1067627203}
-  - {fileID: 435499454}
-  globalVolume: 0.5
-  globalCrossFadeTime: 3
-  players: []
-  resourceRequestMode: 0
 --- !u!1 &1635283578
 GameObject:
   m_ObjectHideFlags: 0
@@ -3523,10 +3499,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 11449720, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
-      propertyPath: FadeInTime
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 114535391757334864, guid: bd73bc5d75dcf864396d1056bd48bcd8,
+        type: 2}
+      propertyPath: songs.Array.data[0]
+      value: 
+      objectReference: {fileID: 1191964953}
+    - target: {fileID: 114535391757334864, guid: bd73bc5d75dcf864396d1056bd48bcd8,
+        type: 2}
+      propertyPath: songs.Array.data[1]
+      value: 
+      objectReference: {fileID: 1067627203}
+    - target: {fileID: 114535391757334864, guid: bd73bc5d75dcf864396d1056bd48bcd8,
+        type: 2}
+      propertyPath: songs.Array.data[2]
+      value: 
+      objectReference: {fileID: 435499454}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
   m_IsPrefabAsset: 0
