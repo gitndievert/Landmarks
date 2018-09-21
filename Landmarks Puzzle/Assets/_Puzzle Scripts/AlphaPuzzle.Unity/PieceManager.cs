@@ -20,6 +20,7 @@ public class PieceManager : BoardManager<PieceManager>
     //Particles
     public GameObject PiecePopEffect;
     public GameObject[] PuzzleWinEffects;
+    public Node SelectedNode;
 
     public Vector3 PieceParentPos
     {
@@ -28,7 +29,7 @@ public class PieceManager : BoardManager<PieceManager>
             if (_pieceParent == null) return Vector3.zero;
             return _pieceParent.transform.position;
         }
-    }
+    }        
 
     private PuzzlePiece[] _associatedPieces;
     //private GameObject _letterPrefab;
@@ -87,6 +88,7 @@ public class PieceManager : BoardManager<PieceManager>
             var go = ((Transform)obj).gameObject;
             if (go.name.ToUpper() == landmark.ToUpper())
             {
+                Destroy(PiecePrefab);
                 PiecePrefab = Instantiate(go);
                 PiecePrefab.transform.parent = transform;                           
                 _pieceParent = PiecePrefab.GetComponent<PieceParent>();
@@ -106,21 +108,11 @@ public class PieceManager : BoardManager<PieceManager>
 
         return true;
     }
-  
-    public void StartNextPuzzle()
-    {
-        if (_pieceParent == null)
-            throw new Exception("No piece parent assigned to puzzle piece parent container");
-        //var node = NodeManager.Instance.PullMapLetter(_pieceParent.AlphaName);
-        
-        
-        //TODO: Replace with back to map logic
-        //SelectPuzzle(_pieceParent.NextAlpha);
-    }
 
-    public void StartNextPuzzle(string letter)
-    {
-        SelectPuzzle(letter);
+    public void StartNextPuzzle(string name, Node node)
+    {        
+        SelectedNode = node;
+        SelectPuzzle(name);
     }
 
     private void StartPuzzle()
@@ -165,31 +157,19 @@ public class PieceManager : BoardManager<PieceManager>
         }
 
         Particles.FireParticle(PuzzleWinEffects[0], _pieceParent.transform.position);
-        _pieceAnim.Play();
+        //_pieceAnim.Play();
         //_animal = CreateAnimal();
         /*Animal Animations go here*/
         yield return new WaitForSeconds(timerDelay);
         //_aText.text = _pieceParent.AssociatedWordValue;        
-        StartCoroutine(MoveToNextMapLetter(moveToMapSec));                
+        StartCoroutine(MoveBackToLandmark(moveToMapSec));                
     }
     
-    private IEnumerator MoveToNextMapLetter(float startDelaySec)
+    private IEnumerator MoveBackToLandmark(float startDelaySec)
     {
-        yield return new WaitForSeconds(startDelaySec);        
-        /*if (_pieceParent.NextAlpha == "END" && GameState.LoadBoard == BoardType.Adventure)
-        {
-            SceneSelector.Instance.MoveToVictoryBoard();
-            yield break;                
-        }*/
-        //SceneSelector.Instance.MoveToMapBoard(_pieceParent.AlphaName);
-        yield return new WaitForSeconds(1f);
-        /*if (GameState.LoadBoard != BoardType.FreeMap)
-        {            
-            SceneSelector.Instance.MoveToMapBoard(_pieceParent.NextAlpha, true);
-        } */
-
-        
-        //SceneSelector.Instance.MoveToMapBoard(_pieceParent.NextAlpha, true);
+        yield return new WaitForSeconds(startDelaySec);
+        var tPos = SelectedNode.transform.position;        
+        SceneSelector.Instance.MoveToMapBoard(new Vector3(tPos.x, tPos.y, -10f));
         yield return null;
     }      
      

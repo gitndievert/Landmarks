@@ -47,7 +47,7 @@ public class PuzzleDrag : MonoBehaviour
     private void Drag()
     {
         AttachedPiece.SetSpriteLayer = 4;
-        transform.position = Camera.main.ScreenToWorldPoint(new Vector3(PosX, PosY, ZDistance));
+        transform.position = Camera.main.ScreenToWorldPoint(new Vector3(PosX, PosY, ZDistance));        
     }
 
 }

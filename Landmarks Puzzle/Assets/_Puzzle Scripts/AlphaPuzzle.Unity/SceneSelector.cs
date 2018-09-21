@@ -22,8 +22,7 @@ public class SceneSelector : DSingle<SceneSelector>
     private readonly string[] _selectedFreeLetter = new string[2];
 
     private readonly Vector3 _countingBoardPos = new Vector3(-90f, 0 ,-10f);
-    private readonly Vector3 _puzzleBoardPos = new Vector3(0, 0, -10f);    
-    private readonly Vector3 _victoryBoardPos = new Vector3(207f, 3.5f, -10f);
+    private readonly Vector3 _puzzleBoardPos = new Vector3(0, 0, -10f);        
     private readonly Vector3 _mapStartingPos = new Vector3(77.5f,15.5f,-10f);
     
     protected override void PAwake()
@@ -48,7 +47,7 @@ public class SceneSelector : DSingle<SceneSelector>
     public void StartGameScene(BoardType gameBoardType)
     {
         _selectedBoardType = gameBoardType;        
-        MoveToStartBoard();        
+        MoveToMapBoard(_mapStartingPos);        
         //Banner Ads
         AdMobBanners.Instance.ShowAdBanner();
         InGameUI.SetActive(false);
@@ -162,12 +161,14 @@ public class SceneSelector : DSingle<SceneSelector>
             t.SetActive(false);
     }*/
 
-    public void MoveToStartBoard()
+    public void MoveToMapBoard(Vector3 lastPos)
     {
         CurrentBoard = _selectedBoardType;        
         IsCameraLocked = false;
-        Camera.main.transform.position = _mapStartingPos;
-        Music.Instance.PlayMusicTrack(MusicTracks.Jazzy);
+        var banner = AdMobBanners.Instance;
+        banner.ShowAdBanner();
+        Camera.main.transform.position = lastPos;
+        Music.Instance.PlayMusicTrack(MusicTracks.Jungle);
 
         InGameUI.SetActive(false);
         MapViewUI.SetActive(true);

@@ -37,7 +37,7 @@ public class Node : MonoBehaviour
         if (_scene.HandAnimation != null)
             _scene.HandAnimation.SetActive(false);
         _scene.MoveToPuzzleBoard();
-        PieceManager.Instance.StartNextPuzzle(Name);
+        PieceManager.Instance.StartNextPuzzle(Name, this);
     }    
 
 }

@@ -9,12 +9,6 @@ public class CameraDrag : MonoBehaviour
     public float YMinBounds = 22.80f;
     public float YMaxBounds = -83.20f;
 
-    public bool LockCamera
-    {
-        get { return SceneSelector.Instance.IsCameraLocked; }
-        set { SceneSelector.Instance.IsCameraLocked = value; }
-    }
-
     private Vector3 _resetCamera;
     private Vector3 _origin;
     private Vector3 _difference;
@@ -22,11 +16,11 @@ public class CameraDrag : MonoBehaviour
     
     void Update()
     {
-        if(LockCamera || !GameState.DragEnabled) return;
+        if(SceneSelector.Instance.IsCameraLocked || !GameState.DragEnabled) return;
         Camera camera = Camera.main;
         if (Input.GetMouseButton(0))
         {
-            StopAllCoroutines();
+            //StopAllCoroutines();
             _difference = (camera.ScreenToWorldPoint(Input.mousePosition)) - camera.transform.position;
             if (!_drag)
             {
