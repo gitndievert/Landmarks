@@ -118,7 +118,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.1
+  bundleVersion: 1.0
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -243,7 +243,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/Nate/Desktop/WackyPotato/(Important) Keys/user.keystore
+  AndroidKeystoreName: C:/Users/eques/OneDrive/Desktop/Wackypotato/(Important) Keys/user.keystore
   AndroidKeyaliasName: landmark
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 1

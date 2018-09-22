@@ -8,7 +8,7 @@ using System.Linq;
 public class SceneSelector : DSingle<SceneSelector>
 {
     public const float BOARD_CAMERA_SIZE = 8.5f;
-    public const float MAP_CAMERA_SIZE = 5f;
+    public const float MAP_CAMERA_SIZE = 10f;
 
     public bool StartPuzzle = false;
     public Node CurrentNode;    
@@ -26,7 +26,7 @@ public class SceneSelector : DSingle<SceneSelector>
 
     private readonly Vector3 _countingBoardPos = new Vector3(-90f, 0 ,-10f);
     private readonly Vector3 _puzzleBoardPos = new Vector3(0, 0, -10f);        
-    private readonly Vector3 _mapStartingPos = new Vector3(77.5f,15.5f,-10f);
+    private readonly Vector3 _mapStartingPos = new Vector3(86.8f,6.5f,-10f);
     
     protected override void PAwake()
     {        
