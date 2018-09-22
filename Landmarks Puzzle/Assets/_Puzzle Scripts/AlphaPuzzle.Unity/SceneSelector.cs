@@ -7,6 +7,9 @@ using System.Linq;
 
 public class SceneSelector : DSingle<SceneSelector>
 {
+    public const float BOARD_CAMERA_SIZE = 8.5f;
+    public const float MAP_CAMERA_SIZE = 5f;
+
     public bool StartPuzzle = false;
     public Node CurrentNode;    
     public BoardType CurrentBoard = BoardType.World;
@@ -68,6 +71,7 @@ public class SceneSelector : DSingle<SceneSelector>
     {
         StopAllCoroutines();        
         CurrentBoard = BoardType.Puzzle;
+        Camera.main.orthographicSize = BOARD_CAMERA_SIZE;
         IsCameraLocked = true;
         //Banner Ads
         AdMobBanners.Instance.HideAdBanner();        
@@ -165,6 +169,7 @@ public class SceneSelector : DSingle<SceneSelector>
     {
         CurrentBoard = _selectedBoardType;        
         IsCameraLocked = false;
+        Camera.main.orthographicSize = MAP_CAMERA_SIZE;
         var banner = AdMobBanners.Instance;
         banner.ShowAdBanner();
         Camera.main.transform.position = lastPos;
