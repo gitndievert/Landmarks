@@ -339,7 +339,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1448467218198178}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.74, y: -2.29, z: 0}
+  m_LocalPosition: {x: -1.6, y: -3.3, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0}
   m_Children:
   - {fileID: 4155060415564022}
@@ -510,9 +510,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22c9b790fb05c2946982787687f3a0ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LandmarkName: skytree
+  LandmarkName: Tokyo Skytree
+  Country: Tokyo, Japan
   AudioDescription: {fileID: 0}
   AudioLocation: {fileID: 0}
+  Flag: {fileID: 21300024, guid: 21cd290691c8efb47a79b4981e2c451c, type: 3}
 --- !u!114 &114696360909946350
 MonoBehaviour:
   m_ObjectHideFlags: 1

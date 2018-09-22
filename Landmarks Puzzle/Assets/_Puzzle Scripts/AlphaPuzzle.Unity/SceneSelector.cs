@@ -175,6 +175,11 @@ public class SceneSelector : DSingle<SceneSelector>
         PuzzleView.SetActive(false);
     }
 
+    public void MoveToMapBoard()
+    {
+        MoveToMapBoard(_mapStartingPos);
+    }
+
     private IEnumerator DisplayHand()
     {
         HandAnimation.SetActive(true);

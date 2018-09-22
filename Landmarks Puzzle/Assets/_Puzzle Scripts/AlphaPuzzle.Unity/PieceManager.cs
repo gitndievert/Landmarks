@@ -2,8 +2,8 @@
 using System.Collections;
 using System.Linq;
 using System;
-using AlphaPuzzle.State;
 using TMPro;
+using UnityEngine.UI;
 
 public class PieceManager : BoardManager<PieceManager>
 {
@@ -15,8 +15,10 @@ public class PieceManager : BoardManager<PieceManager>
     }
         
     public Vector3[] PresetSplitPositions;
-    public GameObject AssociatedText;
-    
+    public GameObject LandmarkNameObj;
+    public GameObject OriginObj;
+    public GameObject FlagImage;
+
     //Particles
     public GameObject PiecePopEffect;
     public GameObject[] PuzzleWinEffects;
@@ -37,14 +39,21 @@ public class PieceManager : BoardManager<PieceManager>
     private bool _waitForPuzzle;
     private bool _pieceSplitComplete;
     private Animation _pieceAnim;
-    private TextMeshProUGUI _aText;
+
+    private TextMeshProUGUI _landmarkNameText;
+    private TextMeshProUGUI _origintext;
+    private Image _flagImage;
+
     private GameObject _animal;
         
 
     protected override void PAwake()
     {
-        _aText = AssociatedText.GetComponent<TextMeshProUGUI>();
+        _landmarkNameText = LandmarkNameObj.GetComponent<TextMeshProUGUI>();
+        _origintext = OriginObj.GetComponent<TextMeshProUGUI>();
+        _flagImage = FlagImage.GetComponent<Image>();
         PiecePrefab = null;
+        FlagImage = null;
     }
 
     protected override void PDestroy()
@@ -118,7 +127,10 @@ public class PieceManager : BoardManager<PieceManager>
     private void StartPuzzle()
     {        
         _associatedPieces = PiecePrefab.GetComponentsInChildren<PuzzlePiece>();        
-        SoundManager.PlaySound(_pieceParent.AudioDescription, 2);                
+        SoundManager.PlaySound(_pieceParent.AudioDescription, 2);
+        _landmarkNameText.text = _pieceParent.LandmarkName;
+        _origintext.text = _pieceParent.Country;
+        _flagImage.sprite = _pieceParent.Flag;
         Invoke("StartScramble", 1.0f);
         _waitForPuzzle = false;
     }

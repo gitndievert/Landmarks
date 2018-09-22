@@ -2,8 +2,9 @@
 
 public class PieceParent : MonoBehaviour
 {
-    public string LandmarkName;    
+    public string LandmarkName;
+    public string Country;
     public AudioClip AudioDescription;
     public AudioClip AudioLocation;
-    public SpriteRenderer Flag;
+    public Sprite Flag;    
 }

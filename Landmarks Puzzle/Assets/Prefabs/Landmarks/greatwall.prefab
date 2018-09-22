@@ -434,8 +434,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1943687863790310}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.36, y: -2.24, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0}
+  m_LocalPosition: {x: 2.4, y: -3.6, z: 0}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0}
   m_Children:
   - {fileID: 4298923897164428}
   - {fileID: 4624158806848990}
@@ -672,9 +672,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22c9b790fb05c2946982787687f3a0ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LandmarkName: greatwall
+  LandmarkName: Great Wall of China
+  Country: China
   AudioDescription: {fileID: 0}
   AudioLocation: {fileID: 0}
+  Flag: {fileID: 21300014, guid: 21cd290691c8efb47a79b4981e2c451c, type: 3}
 --- !u!114 &114220254279278428
 MonoBehaviour:
   m_ObjectHideFlags: 1

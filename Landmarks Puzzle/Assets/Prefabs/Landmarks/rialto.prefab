@@ -400,8 +400,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1800744788211492}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.44, y: -6.72, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0}
+  m_LocalPosition: {x: 1.2, y: -9.3, z: 0}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0}
   m_Children:
   - {fileID: 4197065524564640}
   - {fileID: 4924239340004726}
@@ -645,9 +645,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22c9b790fb05c2946982787687f3a0ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LandmarkName: rialto
+  LandmarkName: Rialto Bridge
+  Country: Venice, Italy
   AudioDescription: {fileID: 0}
   AudioLocation: {fileID: 0}
+  Flag: {fileID: 21300002, guid: 21cd290691c8efb47a79b4981e2c451c, type: 3}
 --- !u!212 &212034383147507480
 SpriteRenderer:
   m_ObjectHideFlags: 1

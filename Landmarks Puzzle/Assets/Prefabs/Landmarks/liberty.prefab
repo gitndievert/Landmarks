@@ -299,8 +299,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1883218759599710}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.77, y: 1.54, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0}
+  m_LocalPosition: {x: -4.3, y: 0.9, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.75, z: 0}
   m_Children:
   - {fileID: 4917803405161866}
   - {fileID: 4575380351645324}
@@ -510,9 +510,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22c9b790fb05c2946982787687f3a0ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LandmarkName: liberty
+  LandmarkName: Statue of Liberty
+  Country: New York City, USA
   AudioDescription: {fileID: 0}
   AudioLocation: {fileID: 0}
+  Flag: {fileID: 21300000, guid: 21cd290691c8efb47a79b4981e2c451c, type: 3}
 --- !u!114 &114207804670735488
 MonoBehaviour:
   m_ObjectHideFlags: 1
