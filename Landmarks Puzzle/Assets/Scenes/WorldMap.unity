@@ -4888,42 +4888,6 @@ Prefab:
       propertyPath: songs.Array.data[2]
       value: 
       objectReference: {fileID: 7624791}
-    - target: {fileID: 11459064, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
-      propertyPath: Motivations.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: f473ac70a481a5b49910c3265e239ea4, type: 3}
-    - target: {fileID: 11459064, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
-      propertyPath: Motivations.Array.data[1]
-      value: 
-      objectReference: {fileID: 8300000, guid: 253fc11b1a1d82841b54c07f66fe59e1, type: 3}
-    - target: {fileID: 11459064, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
-      propertyPath: Motivations.Array.data[2]
-      value: 
-      objectReference: {fileID: 8300000, guid: be8d4cece5a46da4dbd14bcbdc5298e0, type: 3}
-    - target: {fileID: 11459064, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
-      propertyPath: Motivations.Array.data[3]
-      value: 
-      objectReference: {fileID: 8300000, guid: e20d2ead8bd78884190959b1e8da7a4d, type: 3}
-    - target: {fileID: 11459064, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
-      propertyPath: Motivations.Array.data[4]
-      value: 
-      objectReference: {fileID: 8300000, guid: 0deb504827a6c504a9d49c0c12a88738, type: 3}
-    - target: {fileID: 11459064, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
-      propertyPath: Motivations.Array.data[5]
-      value: 
-      objectReference: {fileID: 8300000, guid: 7bcc0b3264c71d6438e2726ef989c14d, type: 3}
-    - target: {fileID: 11459064, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
-      propertyPath: Motivations.Array.data[6]
-      value: 
-      objectReference: {fileID: 8300000, guid: fdf1e91433cd1024ba565f90d175cc9b, type: 3}
-    - target: {fileID: 11459064, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
-      propertyPath: Motivations.Array.data[7]
-      value: 
-      objectReference: {fileID: 8300000, guid: 8047a773cd5c0da43b205b645653663f, type: 3}
-    - target: {fileID: 11459064, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
-      propertyPath: Motivations.Array.data[8]
-      value: 
-      objectReference: {fileID: 8300000, guid: ce4c6fe18e098434e9a99a74a16d3fd8, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
   m_IsPrefabAsset: 0
