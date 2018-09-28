@@ -30,7 +30,7 @@ public class SceneSelector : DSingle<SceneSelector>
     
     protected override void PAwake()
     {        
-        TriggerAdImpression();
+        
     }
 
     protected override void PDestroy()
@@ -50,9 +50,10 @@ public class SceneSelector : DSingle<SceneSelector>
     public void StartGameScene(BoardType gameBoardType)
     {
         _selectedBoardType = gameBoardType;        
-        MoveToMapBoard(_mapStartingPos);        
+        MoveToMapBoard(_mapStartingPos);
         //Banner Ads
-        AdMobBanners.Instance.ShowAdBanner();
+        //AdMobBanners.Instance.ShowAdBanner();
+        UnityAdServices.Instance.PauseAd();
         InGameUI.SetActive(false);
         MapViewUI.SetActive(true);
         PuzzleView.SetActive(false);
@@ -74,31 +75,13 @@ public class SceneSelector : DSingle<SceneSelector>
         Camera.main.orthographicSize = BOARD_CAMERA_SIZE;
         IsCameraLocked = true;
         //Banner Ads
-        AdMobBanners.Instance.HideAdBanner();        
+        //AdMobBanners.Instance.HideAdBanner();        
+        UnityAdServices.Instance.PauseAd();
         MoveCamera(_puzzleBoardPos, false);
         PuzzleView.SetActive(true);
         InGameUI.SetActive(true);
         MapViewUI.SetActive(false);        
     }
-
-    /*public void MoveToVictoryBoard()
-    {
-        StopAllCoroutines();
-        CurrentBoard = BoardType.Victory;
-        GameState.Victory = true;
-        GameState.SettingsData.WinCount++;
-        IsCameraLocked = true;
-        //Banner Ads
-        AdMobBanners.Instance.HideAdBanner();
-        Music.Instance.PlayMusicTrack(MusicTracks.Victory);        
-        MoveCamera(_victoryBoardPos,false);
-        SoundManager.PlaySoundWithDelay(VictoryParent.CheerSound, 1.5f);
-        VictoryParent.StartEffects();
-        Invoke("TriggerWinEvents", 3f);
-        InGameUI.SetActive(false);
-        MapViewUI.SetActive(false);
-        PuzzleView.SetActive(false);
-    }*/
 
     private void TriggerWinEvents()
     {
@@ -110,68 +93,13 @@ public class SceneSelector : DSingle<SceneSelector>
         GameState.SaveData();
     }
 
-    private void TriggerAdImpression()
-    {
-        /*if(AdMobBanners.Instance.StartBannerAds)
-        {
-            char[] letters = { 'G', 'N', 'P', 'U', 'X' };                        
-            for (int i = 0; i <= 1; i++)
-            {
-                int random = UnityEngine.Random.Range(0, letters.Length);
-                string letter = letters[random].ToString();
-                while (_selectedFreeLetter[0] == letter) continue;
-                _selectedFreeLetter[i] = letter;
-            }            
-        }*/
-    }
-
-    /*public void MoveToMapBoard(string letter, bool lerp = false)
-    {
-        if (string.IsNullOrEmpty(letter)) return;
-        CurrentBoard = _selectedBoardType;
-        IsCameraLocked = false;
-        //Banner Adds
-        var banner = AdMobBanners.Instance;
-        banner.ShowAdBanner();
-        foreach (var l in NodeManager.Instance.NodeList)
-        {
-            if (l.name.ToUpper() == letter.ToUpper())
-            {
-                Transform t = l.transform;
-                Vector3 camPoint = new Vector3(t.position.x,t.position.y, -10.0f);
-                MoveCamera(camPoint, lerp);
-                CurrentNode = l;                
-                //Banner ads
-                if (banner.StartBannerAds && _selectedFreeLetter.Contains(letter))                
-                    Notifications.Instance.InGameNotification(InGameNotificationTypes.FreetoPay);                
-                break;
-            }
-        }
-
-        InGameUI.SetActive(false);
-        MapViewUI.SetActive(true);
-        PuzzleView.SetActive(false);
-    }*/
-
-    /*public void UnlockMapBoard()
-    {
-        if (CurrentBoard != BoardType.FreeMap) return;
-        foreach (var node in NodeManager.Instance.NodeList)
-        {
-            node.CanSelect = true;            
-        }
-        var treasure = GameObject.FindGameObjectsWithTag("Treasure");
-        foreach (var t in treasure)
-            t.SetActive(false);
-    }*/
-
     public void MoveToMapBoard(Vector3 lastPos)
     {
         CurrentBoard = _selectedBoardType;        
         IsCameraLocked = false;
         Camera.main.orthographicSize = MAP_CAMERA_SIZE;
-        var banner = AdMobBanners.Instance;
-        banner.ShowAdBanner();
+        var banner = UnityAdServices.Instance;
+        banner.UnPauseAd();
         Camera.main.transform.position = lastPos;
         Music.Instance.PlayMusicTrack(MusicTracks.Jungle);
 

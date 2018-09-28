@@ -125,6 +125,7 @@ PlayerSettings:
   m_HolographicPauseOnTrackingLoss: 1
   xboxOneDisableKinectGpuReservation: 0
   xboxOneEnable7thCore: 0
+  isWsaHolographicRemotingEnabled: 0
   vrSettings:
     cardboard:
       depthFormat: 0
@@ -154,7 +155,7 @@ PlayerSettings:
     Android: com.wackypotato.landmarks
     Standalone: com.Company.ProductName
   buildNumber: {}
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 2
   AndroidMinSdkVersion: 16
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -243,7 +244,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/eques/OneDrive/Desktop/Wackypotato/(Important) Keys/user.keystore
+  AndroidKeystoreName: C:/Users/Nate/Desktop/WackyPotato/(Important) Keys/user.keystore
   AndroidKeyaliasName: landmark
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 1

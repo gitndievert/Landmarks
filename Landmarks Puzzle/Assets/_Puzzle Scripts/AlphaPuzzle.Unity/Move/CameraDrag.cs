@@ -8,24 +8,34 @@ public class CameraDrag : MonoBehaviour
     public float XMaxBounds = 135.02f;
     public float YMinBounds = 22.80f;
     public float YMaxBounds = -83.20f;
+    [Space(10)]
+    [Range(0, 25f)]
+    public float ButtonSpeed = 10f;
 
     private Vector3 _resetCamera;
     private Vector3 _origin;
     private Vector3 _difference;
     private bool _drag;
-    
+    private Camera _camera;
+    private bool _buttonDrag;
+
+    void Start()
+    {
+        _camera = Camera.main;
+        _buttonDrag = false;
+    }
+
     void Update()
     {
-        if(SceneSelector.Instance.IsCameraLocked || !GameState.DragEnabled) return;
-        Camera camera = Camera.main;
+        if(SceneSelector.Instance.IsCameraLocked || !GameState.DragEnabled) return;        
         if (Input.GetMouseButton(0))
         {
             //StopAllCoroutines();
-            _difference = (camera.ScreenToWorldPoint(Input.mousePosition)) - camera.transform.position;
+            _difference = (_camera.ScreenToWorldPoint(Input.mousePosition)) - _camera.transform.position;
             if (!_drag)
             {
                 _drag = true;
-                _origin = camera.ScreenToWorldPoint(Input.mousePosition);
+                _origin = _camera.ScreenToWorldPoint(Input.mousePosition);
             }
         }
         else
@@ -35,18 +45,51 @@ public class CameraDrag : MonoBehaviour
 
         if (_drag)
         {
-            camera.transform.position = _origin - _difference;
-            var bPos = camera.transform.position;
-            if (bPos.x < XMinBounds)
-                camera.transform.position = new Vector3(XMinBounds, camera.transform.position.y,-10f);
-            if (bPos.x > XMaxBounds)
-                camera.transform.position = new Vector3(XMaxBounds, camera.transform.position.y,-10f);
-            if (bPos.y > YMinBounds)
-                camera.transform.position = new Vector3(camera.transform.position.x, YMinBounds,-10f);
-            if (bPos.y < YMaxBounds)
-                camera.transform.position = new Vector3(camera.transform.position.x, YMaxBounds,-10f);
+            _camera.transform.position = _origin - _difference;            
+            Bounds();           
         }
         
+    }  
+
+    public void OnClickDown_MoveCamera(string direction)
+    {
+        GameState.DragEnabled = false;
+
+        switch (direction)
+        {
+            case "top":
+                transform.Translate(0, ButtonSpeed, 0);
+                break;
+            case "bottom":
+                transform.Translate(0, -ButtonSpeed, 0);
+                break;
+            case "left":
+                transform.Translate(-ButtonSpeed, 0 , 0);
+                break;
+            case "right":
+                transform.Translate(ButtonSpeed, 0, 0);
+                break;
+        }
+
+        Bounds();        
+    }
+        
+    public void OnClick_ReleaseCamera()
+    {
+        GameState.DragEnabled = true;
+    }    
+    
+    private void Bounds()
+    {
+        var pos = _camera.transform.position;
+        if (pos.x < XMinBounds)
+            _camera.transform.position = new Vector3(XMinBounds, _camera.transform.position.y, -10f);
+        if (pos.x > XMaxBounds)
+            _camera.transform.position = new Vector3(XMaxBounds, _camera.transform.position.y, -10f);
+        if (pos.y > YMinBounds)
+            _camera.transform.position = new Vector3(_camera.transform.position.x, YMinBounds, -10f);
+        if (pos.y < YMaxBounds)
+            _camera.transform.position = new Vector3(_camera.transform.position.x, YMaxBounds, -10f);
     }
    
 }
