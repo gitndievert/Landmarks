@@ -599,8 +599,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LandmarkName: Chichen Itza
   Country: Yucatan, Mexico
-  AudioDescription: {fileID: 0}
-  AudioLocation: {fileID: 0}
+  AudioDescription: {fileID: 8300000, guid: 6adf7905d69eebb47b9e14d0db9fa009, type: 3}
   Flag: {fileID: 21300018, guid: 21cd290691c8efb47a79b4981e2c451c, type: 3}
 --- !u!114 &114364778527301164
 MonoBehaviour:

@@ -15,7 +15,7 @@ public class MenuManager : MonoBehaviour
     void Start()
     {        
         if (GameState.LoadBoard == BoardType.Menu)
-            Music.Instance.PlayMusicTrack(MusicTracks.Jungle);
+            Music.Instance.PlayMusicTrack(MusicTracks.Menu);
         GameState.LoadData();
         GameState.SaveData();
     }

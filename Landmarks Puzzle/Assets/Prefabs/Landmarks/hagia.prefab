@@ -896,8 +896,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LandmarkName: Hagia Sophia
   Country: Istanbul, Turkey
-  AudioDescription: {fileID: 0}
-  AudioLocation: {fileID: 0}
+  AudioDescription: {fileID: 8300000, guid: c444d47e147431746941774be5ab3273, type: 3}
   Flag: {fileID: 21300012, guid: 21cd290691c8efb47a79b4981e2c451c, type: 3}
 --- !u!114 &114630137771814912
 MonoBehaviour:

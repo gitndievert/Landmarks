@@ -512,8 +512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LandmarkName: Statue of Liberty
   Country: New York City, USA
-  AudioDescription: {fileID: 0}
-  AudioLocation: {fileID: 0}
+  AudioDescription: {fileID: 8300000, guid: 512705eba15359142b693a7176c6399d, type: 3}
   Flag: {fileID: 21300000, guid: 21cd290691c8efb47a79b4981e2c451c, type: 3}
 --- !u!114 &114207804670735488
 MonoBehaviour:

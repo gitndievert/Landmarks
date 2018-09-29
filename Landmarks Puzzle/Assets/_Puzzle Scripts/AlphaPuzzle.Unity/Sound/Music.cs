@@ -26,25 +26,7 @@ public class Music : PSingle<Music>, IAudio
 
     void Update()
     {
-        if (SceneSelector.Instance == null || _grumble == null) return;
-        int jungleTrack = (int)MusicTracks.Jungle;
-        switch (SceneSelector.Instance.CurrentBoard)
-        {            
-            case BoardType.World:
-                if (MusicIndex == 0 || MusicIndex == 2)
-                {
-                    UnPauseTrack();
-                    MusicIndex = jungleTrack;
-                }
-                break;
-            case BoardType.Puzzle:
-                if (MusicIndex == jungleTrack)
-                {
-                    PauseTrack();
-                    MusicIndex = 0;
-                }
-                break;
-        }
+        
     }
 
     public void PlayMusicTrack(MusicTracks track)
@@ -87,7 +69,7 @@ public class Music : PSingle<Music>, IAudio
 
 public enum MusicTracks
 {
-    Jazzy = 0,
-    Jungle = 1,
-    Victory = 2
+    Menu = 0,
+    Map = 1,
+    Puzzle = 2
 }

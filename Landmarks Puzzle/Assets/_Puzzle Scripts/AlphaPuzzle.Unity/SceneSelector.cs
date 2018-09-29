@@ -51,6 +51,7 @@ public class SceneSelector : DSingle<SceneSelector>
     {
         _selectedBoardType = gameBoardType;        
         MoveToMapBoard(_mapStartingPos);
+        Music.Instance.PlayMusicTrack(MusicTracks.Map);
         //Banner Ads
         //AdMobBanners.Instance.ShowAdBanner();
         UnityAdServices.Instance.PauseAd();
@@ -77,6 +78,7 @@ public class SceneSelector : DSingle<SceneSelector>
         //Banner Ads
         //AdMobBanners.Instance.HideAdBanner();        
         UnityAdServices.Instance.PauseAd();
+        Music.Instance.PlayMusicTrack(MusicTracks.Puzzle);
         MoveCamera(_puzzleBoardPos, false);
         PuzzleView.SetActive(true);
         InGameUI.SetActive(true);
@@ -101,7 +103,7 @@ public class SceneSelector : DSingle<SceneSelector>
         var banner = UnityAdServices.Instance;
         banner.UnPauseAd();
         Camera.main.transform.position = lastPos;
-        Music.Instance.PlayMusicTrack(MusicTracks.Jungle);
+        Music.Instance.PlayMusicTrack(MusicTracks.Map);
 
         InGameUI.SetActive(false);
         MapViewUI.SetActive(true);

@@ -500,8 +500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LandmarkName: Eiffel Tower
   Country: Paris, France
-  AudioDescription: {fileID: 0}
-  AudioLocation: {fileID: 0}
+  AudioDescription: {fileID: 8300000, guid: d9544250b3803794a88806d0a31832cf, type: 3}
   Flag: {fileID: 21300008, guid: 21cd290691c8efb47a79b4981e2c451c, type: 3}
 --- !u!114 &114356628391016090
 MonoBehaviour:

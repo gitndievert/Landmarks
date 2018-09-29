@@ -647,8 +647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LandmarkName: Rialto Bridge
   Country: Venice, Italy
-  AudioDescription: {fileID: 0}
-  AudioLocation: {fileID: 0}
+  AudioDescription: {fileID: 8300000, guid: 0f7562c689eea654f856b1fda98c488d, type: 3}
   Flag: {fileID: 21300002, guid: 21cd290691c8efb47a79b4981e2c451c, type: 3}
 --- !u!212 &212034383147507480
 SpriteRenderer:

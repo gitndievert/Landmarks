@@ -746,8 +746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LandmarkName: Pyramids of Giza
   Country: Cairo, Egypt
-  AudioDescription: {fileID: 0}
-  AudioLocation: {fileID: 0}
+  AudioDescription: {fileID: 8300000, guid: e4f6a928906fd074d92260579f81e5e5, type: 3}
   Flag: {fileID: 21300016, guid: 21cd290691c8efb47a79b4981e2c451c, type: 3}
 --- !u!212 &212015737354985064
 SpriteRenderer:

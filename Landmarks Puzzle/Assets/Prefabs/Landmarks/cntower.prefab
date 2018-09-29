@@ -761,8 +761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LandmarkName: CN Tower
   Country: Toronto, Canada
-  AudioDescription: {fileID: 0}
-  AudioLocation: {fileID: 0}
+  AudioDescription: {fileID: 8300000, guid: 0bac7cf1e2e4b984caaa9c0b225eef13, type: 3}
   Flag: {fileID: 21300022, guid: 21cd290691c8efb47a79b4981e2c451c, type: 3}
 --- !u!114 &114346203398630680
 MonoBehaviour:

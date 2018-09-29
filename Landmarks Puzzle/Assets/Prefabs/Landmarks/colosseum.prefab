@@ -611,8 +611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LandmarkName: Colosseum
   Country: Rome, Italy
-  AudioDescription: {fileID: 0}
-  AudioLocation: {fileID: 0}
+  AudioDescription: {fileID: 8300000, guid: 9c719691b6709894f8e4eecca3a7b9d3, type: 3}
   Flag: {fileID: 21300002, guid: 21cd290691c8efb47a79b4981e2c451c, type: 3}
 --- !u!114 &114242975223382146
 MonoBehaviour:
