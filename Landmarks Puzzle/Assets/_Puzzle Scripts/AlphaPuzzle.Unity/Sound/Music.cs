@@ -5,8 +5,7 @@ using AlphaPuzzle.State;
 public class Music : PSingle<Music>, IAudio
 {    
     public static int MusicIndex { get; set; }
-    public float VolumeLevel { get; set; }        
-    public float FadeInTime = 3f;    
+    public float VolumeLevel { get; set; }            
     public const float FadeStopTime = 0.5f;
 
     [HideInInspector]
@@ -40,7 +39,7 @@ public class Music : PSingle<Music>, IAudio
 
         if (MusicEnabled)
         {            
-            _grumble.PlaySong(index, 0, FadeInTime);
+            _grumble.PlaySong(index, 0, 3f);
         }
     }
 
