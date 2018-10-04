@@ -6,7 +6,6 @@ TextureImporter:
     21300002: bigben_top_1
     21300004: bigben_top_2
     21300006: bigben_top_3
-    21300008: bigben_top_4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -114,10 +113,10 @@ TextureImporter:
       name: bigben_top_0
       rect:
         serializedVersion: 2
-        x: 64
-        y: 1404
-        width: 352
-        height: 603
+        x: 33
+        y: 1053
+        width: 405
+        height: 965
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,7 +124,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0520bf59f73e918448fb060dfdf2340d
+      spriteID: 9558cc256c6b78f498c7febbfd968c3e
       vertices: []
       indices: 
       edges: []
@@ -134,10 +133,10 @@ TextureImporter:
       name: bigben_top_1
       rect:
         serializedVersion: 2
-        x: 1434
-        y: 1269
-        width: 542
-        height: 711
+        x: 840
+        y: 904
+        width: 414
+        height: 675
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,7 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87cfe4bb68f2fad4dbaa871779eb6bf0
+      spriteID: c4509b30286f4774d8948d42ed1f0a53
       vertices: []
       indices: 
       edges: []
@@ -154,10 +153,10 @@ TextureImporter:
       name: bigben_top_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 808
-        width: 424
-        height: 427
+        x: 1508
+        y: 1313
+        width: 503
+        height: 675
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,7 +164,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26a428b17b193d8488907113969eb18d
+      spriteID: 05a5a018f610ae4408b65bd30e542c25
       vertices: []
       indices: 
       edges: []
@@ -174,10 +173,10 @@ TextureImporter:
       name: bigben_top_3
       rect:
         serializedVersion: 2
-        x: 722
-        y: 354
-        width: 399
-        height: 1018
+        x: 1535
+        y: 79
+        width: 445
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,27 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d2a87088723b724a8d6aae259fbf4f0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bigben_top_4
-      rect:
-        serializedVersion: 2
-        x: 1322
-        y: 66
-        width: 671
-        height: 854
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ff0f6de5a9aaec4c9b4f38a1854b9c9
+      spriteID: 1d7e8671a7b4e234fa9850ae0dac1938
       vertices: []
       indices: 
       edges: []
@@ -213,7 +192,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b052b15c236598a49827ae1c36b66285
+    spriteID: b764582a6fc2eeb4985066b8e7ab1be9
     vertices: []
     indices: 
     edges: []

@@ -6,9 +6,6 @@ TextureImporter:
     21300002: pisa_bottom_1
     21300004: pisa_bottom_2
     21300006: pisa_bottom_3
-    21300008: pisa_bottom_4
-    21300010: pisa_bottom_5
-    21300012: pisa_bottom_6
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -116,10 +113,10 @@ TextureImporter:
       name: pisa_bottom_0
       rect:
         serializedVersion: 2
-        x: 96
-        y: 1490
-        width: 333
-        height: 502
+        x: 60
+        y: 1262
+        width: 362
+        height: 723
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,7 +124,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66e8598b23d283744a06d29381ce516c
+      spriteID: abcdff588c575444b98073c2700c676b
       vertices: []
       indices: 
       edges: []
@@ -136,10 +133,10 @@ TextureImporter:
       name: pisa_bottom_1
       rect:
         serializedVersion: 2
-        x: 626
-        y: 1201
-        width: 431
-        height: 729
+        x: 1115
+        y: 1248
+        width: 905
+        height: 778
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,7 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28fc0454a8c282c409a0c4e7b212618f
+      spriteID: 5c3d921a20f3e734abb98bd4bcaf7b0a
       vertices: []
       indices: 
       edges: []
@@ -156,10 +153,10 @@ TextureImporter:
       name: pisa_bottom_2
       rect:
         serializedVersion: 2
-        x: 1212
-        y: 1212
-        width: 782
-        height: 790
+        x: 64
+        y: 65
+        width: 437
+        height: 999
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,7 +164,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0973e60e37df99548ae87e4eb686d129
+      spriteID: 2906f3202a711524fabe53d4b5f5bc16
       vertices: []
       indices: 
       edges: []
@@ -176,10 +173,10 @@ TextureImporter:
       name: pisa_bottom_3
       rect:
         serializedVersion: 2
-        x: 90
-        y: 744
-        width: 354
-        height: 653
+        x: 1049
+        y: 101
+        width: 767
+        height: 778
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,67 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f87c5cc7b84bca48b04de410b6857d9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pisa_bottom_4
-      rect:
-        serializedVersion: 2
-        x: 862
-        y: 535
-        width: 295
-        height: 435
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 425430dccc063954e9c1c2509894708b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pisa_bottom_5
-      rect:
-        serializedVersion: 2
-        x: 1418
-        y: 213
-        width: 482
-        height: 790
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89b712524878f8e40ab65133c3bbf2bd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pisa_bottom_6
-      rect:
-        serializedVersion: 2
-        x: 261
-        y: 195
-        width: 473
-        height: 316
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2dad3952ce6184344b9e36f4be4eb572
+      spriteID: 60f1a550356914845bb3645024ef58ef
       vertices: []
       indices: 
       edges: []
@@ -255,7 +192,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ed682e238e997374dafb668449f572ae
+    spriteID: 9e4288f47d1c3bd45a5a456b1210f154
     vertices: []
     indices: 
     edges: []

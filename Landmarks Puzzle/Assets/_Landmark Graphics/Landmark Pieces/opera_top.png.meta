@@ -114,10 +114,10 @@ TextureImporter:
       name: opera_top_0
       rect:
         serializedVersion: 2
-        x: 71
-        y: 1569
-        width: 638
-        height: 422
+        x: 13
+        y: 1663
+        width: 816
+        height: 366
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,7 +125,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27cf500a192372c409b61fbe036f6a35
+      spriteID: 7c9fb697fd779a94ab522ea2ab60a4f1
       vertices: []
       indices: 
       edges: []
@@ -134,10 +134,10 @@ TextureImporter:
       name: opera_top_1
       rect:
         serializedVersion: 2
-        x: 975
-        y: 1534
-        width: 1040
-        height: 483
+        x: 1118
+        y: 1439
+        width: 874
+        height: 552
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,7 +145,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aed5bd31d5032b84397e0ab9e4d14f46
+      spriteID: 476bb4e9382c07e4ea1b6502a943314a
       vertices: []
       indices: 
       edges: []
@@ -154,10 +154,10 @@ TextureImporter:
       name: opera_top_2
       rect:
         serializedVersion: 2
-        x: 85
-        y: 825
-        width: 708
-        height: 523
+        x: 129
+        y: 815
+        width: 384
+        height: 631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,7 +165,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 428083d8519e05541b45f22437608122
+      spriteID: b7f627acea452ec44ae4437338385bcf
       vertices: []
       indices: 
       edges: []
@@ -174,10 +174,10 @@ TextureImporter:
       name: opera_top_3
       rect:
         serializedVersion: 2
-        x: 1319
-        y: 482
-        width: 432
-        height: 539
+        x: 276
+        y: 274
+        width: 568
+        height: 299
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,7 +185,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 754679e2aae5c8f43998f34ae1776198
+      spriteID: 5f76e6b740a70024d9914abbfa803282
       vertices: []
       indices: 
       edges: []
@@ -194,10 +194,10 @@ TextureImporter:
       name: opera_top_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 71
-        width: 889
-        height: 164
+        x: 1375
+        y: 66
+        width: 626
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,7 +205,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52d637aa48b2a68478213cda5b4a7de9
+      spriteID: aa80ed86910de5c4a9f6090ba52cc344
       vertices: []
       indices: 
       edges: []
@@ -213,7 +213,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 811bd9ea36d8d0e47876a0b60f13e043
+    spriteID: f2b7aa26137294f4783f935d017bb196
     vertices: []
     indices: 
     edges: []

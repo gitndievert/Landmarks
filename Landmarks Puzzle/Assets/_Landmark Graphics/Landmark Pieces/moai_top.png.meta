@@ -5,7 +5,6 @@ TextureImporter:
     21300000: moai_top_0
     21300002: moai_top_1
     21300004: moai_top_2
-    21300006: moai_top_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -113,10 +112,10 @@ TextureImporter:
       name: moai_top_0
       rect:
         serializedVersion: 2
-        x: 156
-        y: 1200
-        width: 484
-        height: 733
+        x: 508
+        y: 799
+        width: 673
+        height: 1235
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,7 +123,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7e23f28edd2a994291aba82ab740fee
+      spriteID: 59436be4c3e11b94eab3c25f82046771
       vertices: []
       indices: 
       edges: []
@@ -133,10 +132,10 @@ TextureImporter:
       name: moai_top_1
       rect:
         serializedVersion: 2
-        x: 870
-        y: 1219
-        width: 308
-        height: 739
+        x: 1240
+        y: 16
+        width: 795
+        height: 1257
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,7 +143,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cf03631267bd9e4db4526b15c3a5a29
+      spriteID: b8362fe5e6b36a3498dd567f5293ac48
       vertices: []
       indices: 
       edges: []
@@ -153,10 +152,10 @@ TextureImporter:
       name: moai_top_2
       rect:
         serializedVersion: 2
-        x: 1399
-        y: 1080
-        width: 388
-        height: 865
+        x: 22
+        y: 20
+        width: 1070
+        height: 754
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,27 +163,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ab1ea768c7f5a64db7cacc1c057578a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: moai_top_3
-      rect:
-        serializedVersion: 2
-        x: 889
-        y: 544
-        width: 375
-        height: 502
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ece5fe066c535c148b52af9c7077bc1f
+      spriteID: 721ced825b3a8644eb0e2f1fb907d92b
       vertices: []
       indices: 
       edges: []
@@ -192,7 +171,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f2da48afb104a67459f132ae4fa1d3a9
+    spriteID: d5655d17cbc023840942d1c2b97e94c5
     vertices: []
     indices: 
     edges: []

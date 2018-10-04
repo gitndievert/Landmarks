@@ -6,10 +6,6 @@ TextureImporter:
     21300002: cntower_bottom_1
     21300004: cntower_bottom_2
     21300006: cntower_bottom_3
-    21300008: cntower_bottom_4
-    21300010: cntower_bottom_5
-    21300012: cntower_bottom_6
-    21300014: cntower_bottom_7
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -117,10 +113,10 @@ TextureImporter:
       name: cntower_bottom_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 1676
-        width: 538
-        height: 334
+        x: 279
+        y: 1138
+        width: 209
+        height: 583
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,7 +124,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5934e22fb3755a14daac8e1a2803a219
+      spriteID: 96070fc1e3d6a714faa1c41c03ac52f0
       vertices: []
       indices: 
       edges: []
@@ -137,10 +133,10 @@ TextureImporter:
       name: cntower_bottom_1
       rect:
         serializedVersion: 2
-        x: 1885
-        y: 1624
-        width: 88
-        height: 380
+        x: 1072
+        y: 963
+        width: 259
+        height: 999
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,7 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44886f0c1d75d074ebb5d3cd49412d25
+      spriteID: 7bd2aecb713e2df478d354c1a01b1904
       vertices: []
       indices: 
       edges: []
@@ -157,10 +153,10 @@ TextureImporter:
       name: cntower_bottom_2
       rect:
         serializedVersion: 2
-        x: 166
-        y: 1169
-        width: 190
-        height: 381
+        x: 1692
+        y: 968
+        width: 270
+        height: 999
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,7 +164,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6e88f3e66a00de4aa57152be123de90
+      spriteID: 58a77df21f3a9a94e8aa7b4ca7e0ae99
       vertices: []
       indices: 
       edges: []
@@ -177,10 +173,10 @@ TextureImporter:
       name: cntower_bottom_3
       rect:
         serializedVersion: 2
-        x: 922
-        y: 1175
-        width: 199
-        height: 363
+        x: 76
+        y: 43
+        width: 635
+        height: 414
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,87 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d0794958f77d0441944e56728e0a09e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cntower_bottom_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 41
-        width: 338
-        height: 1031
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71ba459b54616eb4b8668d7a727b2334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cntower_bottom_5
-      rect:
-        serializedVersion: 2
-        x: 1532
-        y: 983
-        width: 209
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f442ef62dc024774887752e4694588ca
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cntower_bottom_6
-      rect:
-        serializedVersion: 2
-        x: 658
-        y: 157
-        width: 495
-        height: 805
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51aeb284136233142b31d785263d765a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cntower_bottom_7
-      rect:
-        serializedVersion: 2
-        x: 1343
-        y: 41
-        width: 670
-        height: 610
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b6097b9fca379a42ae050a2233d1cdb
+      spriteID: f3a133aa7c1cd694fadf3192e311278c
       vertices: []
       indices: 
       edges: []
@@ -276,7 +192,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c3f11576f86621444a9cc86d788d8411
+    spriteID: 3c9d11440880bc241b04e6a72c229d6c
     vertices: []
     indices: 
     edges: []

@@ -114,10 +114,10 @@ TextureImporter:
       name: parthenon_top_0
       rect:
         serializedVersion: 2
-        x: 61
-        y: 1512
-        width: 958
-        height: 480
+        x: 63
+        y: 1711
+        width: 1898
+        height: 290
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,7 +125,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ad612e93d2d31a4f8c81063b720e9fe
+      spriteID: ba131d94ef51f5048881911c802ef9ef
       vertices: []
       indices: 
       edges: []
@@ -134,10 +134,10 @@ TextureImporter:
       name: parthenon_top_1
       rect:
         serializedVersion: 2
-        x: 1240
-        y: 1235
-        width: 767
-        height: 754
+        x: 16
+        y: 758
+        width: 708
+        height: 901
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,7 +145,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7308d6f38ddbed409776c070387c9c8
+      spriteID: e4f92564bb36b8c42b25ec6bbef7bc7f
       vertices: []
       indices: 
       edges: []
@@ -154,10 +154,10 @@ TextureImporter:
       name: parthenon_top_2
       rect:
         serializedVersion: 2
-        x: 31
-        y: 691
-        width: 778
-        height: 754
+        x: 1228
+        y: 1036
+        width: 664
+        height: 563
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,7 +165,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a444e6529d423cd44adfb09ec45ae353
+      spriteID: c38c91ed785a9214284935efcd57127b
       vertices: []
       indices: 
       edges: []
@@ -174,10 +174,10 @@ TextureImporter:
       name: parthenon_top_3
       rect:
         serializedVersion: 2
-        x: 1328
-        y: 140
-        width: 556
-        height: 754
+        x: 125
+        y: 145
+        width: 723
+        height: 338
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,7 +185,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c497e7aadbd11f4986737b582b50be0
+      spriteID: 95a6e086dfbffd64880f53a2efcbae70
       vertices: []
       indices: 
       edges: []
@@ -194,10 +194,10 @@ TextureImporter:
       name: parthenon_top_4
       rect:
         serializedVersion: 2
-        x: 33
-        y: 68
-        width: 986
-        height: 480
+        x: 1311
+        y: 40
+        width: 705
+        height: 901
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,7 +205,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f18e1df3d4617684d9948179929ad4aa
+      spriteID: bf99aed0d1165eb49b6c450b09bd3f29
       vertices: []
       indices: 
       edges: []
@@ -213,7 +213,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bc338e19b0d797d42be22cb041648967
+    spriteID: 784ee06b60a7b7f42ab64e36a6454bb3
     vertices: []
     indices: 
     edges: []

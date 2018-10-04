@@ -7,7 +7,6 @@ TextureImporter:
     21300004: rialto_top_2
     21300006: rialto_top_3
     21300008: rialto_top_4
-    21300010: rialto_top_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -115,10 +114,10 @@ TextureImporter:
       name: rialto_top_0
       rect:
         serializedVersion: 2
-        x: 306
-        y: 1407
-        width: 430
-        height: 566
+        x: 42
+        y: 1405
+        width: 578
+        height: 605
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,7 +125,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9e4e683f007250479000c9434f65368
+      spriteID: 4d6af629c8d824d4b8b023f4438d6e7c
       vertices: []
       indices: 
       edges: []
@@ -135,10 +134,10 @@ TextureImporter:
       name: rialto_top_1
       rect:
         serializedVersion: 2
-        x: 1380
-        y: 1479
-        width: 614
-        height: 506
+        x: 798
+        y: 1553
+        width: 741
+        height: 388
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,7 +145,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7027bc168516f9642ade712600488297
+      spriteID: 10a181b8e1cc4264e90a08a2d693e27c
       vertices: []
       indices: 
       edges: []
@@ -155,10 +154,10 @@ TextureImporter:
       name: rialto_top_2
       rect:
         serializedVersion: 2
-        x: 215
-        y: 532
-        width: 518
-        height: 700
+        x: 78
+        y: 658
+        width: 409
+        height: 563
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,7 +165,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f39991f6c5f49fb4886968034f6ae038
+      spriteID: 3ad6a46e2f77fe64a85e67d097d1e327
       vertices: []
       indices: 
       edges: []
@@ -175,10 +174,10 @@ TextureImporter:
       name: rialto_top_3
       rect:
         serializedVersion: 2
-        x: 1606
-        y: 678
-        width: 342
-        height: 586
+        x: 1304
+        y: 804
+        width: 661
+        height: 434
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,7 +185,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce7815d388d49d94f9cc241f3f7fbf3e
+      spriteID: 02f940c73d053c94da01adc8f26c806c
       vertices: []
       indices: 
       edges: []
@@ -195,10 +194,10 @@ TextureImporter:
       name: rialto_top_4
       rect:
         serializedVersion: 2
-        x: 820
-        y: 47
-        width: 404
-        height: 304
+        x: 785
+        y: 79
+        width: 340
+        height: 651
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,27 +205,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4eaafe8343149e44aa4b7901d982ada
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rialto_top_5
-      rect:
-        serializedVersion: 2
-        x: 1392
-        y: 243
-        width: 621
-        height: 297
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98b270e93b8109540ae90e308694b27e
+      spriteID: 80973f7e6ee5bf445a78211215bc5fcb
       vertices: []
       indices: 
       edges: []
@@ -234,7 +213,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b9d5cda1077ca9c4fa2debe749422e73
+    spriteID: 479abc3b3b6eda8439d9149c84a616bd
     vertices: []
     indices: 
     edges: []

@@ -7,10 +7,6 @@ TextureImporter:
     21300004: hagia_bottom_2
     21300006: hagia_bottom_3
     21300008: hagia_bottom_4
-    21300010: hagia_bottom_5
-    21300012: hagia_bottom_6
-    21300014: hagia_bottom_7
-    21300016: hagia_bottom_8
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -118,10 +114,10 @@ TextureImporter:
       name: hagia_bottom_0
       rect:
         serializedVersion: 2
-        x: 41
-        y: 1527
-        width: 559
-        height: 483
+        x: 43
+        y: 725
+        width: 387
+        height: 1301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,7 +125,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d316cf31b214a184a815c52da62b6dea
+      spriteID: 05b562508f23c8f468abd52f6b54ab77
       vertices: []
       indices: 
       edges: []
@@ -138,10 +134,10 @@ TextureImporter:
       name: hagia_bottom_1
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 1207
-        width: 84
-        height: 802
+        x: 530
+        y: 1145
+        width: 736
+        height: 589
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,7 +145,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6dc2b38d6d9c88438f838eea204235e
+      spriteID: caec3cb377930d544ab688f00db9c1e0
       vertices: []
       indices: 
       edges: []
@@ -158,10 +154,10 @@ TextureImporter:
       name: hagia_bottom_2
       rect:
         serializedVersion: 2
-        x: 1194
-        y: 1207
-        width: 85
-        height: 760
+        x: 1402
+        y: 716
+        width: 619
+        height: 1299
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,7 +165,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d90817928c160bb4b8abeddcd009486b
+      spriteID: 98631265279bf71408e02c5d847b1304
       vertices: []
       indices: 
       edges: []
@@ -178,10 +174,10 @@ TextureImporter:
       name: hagia_bottom_3
       rect:
         serializedVersion: 2
-        x: 1436
-        y: 1393
-        width: 479
-        height: 564
+        x: 55
+        y: 28
+        width: 757
+        height: 589
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,7 +185,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13aab7e9617cc084d89da21c2deb0cda
+      spriteID: b600e5eaec405e448b94e6bb3f376a97
       vertices: []
       indices: 
       edges: []
@@ -198,10 +194,10 @@ TextureImporter:
       name: hagia_bottom_4
       rect:
         serializedVersion: 2
-        x: 52
-        y: 372
-        width: 234
-        height: 1098
+        x: 1473
+        y: 10
+        width: 557
+        height: 677
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,87 +205,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28cce2eb4547b8343b5d466bb83c7d8e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hagia_bottom_5
-      rect:
-        serializedVersion: 2
-        x: 523
-        y: 613
-        width: 466
-        height: 809
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3725f770c8a2d54eadb0970998b4b28
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hagia_bottom_6
-      rect:
-        serializedVersion: 2
-        x: 1535
-        y: 762
-        width: 420
-        height: 537
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e48705a073dede449d8c5b26f8c9aef
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hagia_bottom_7
-      rect:
-        serializedVersion: 2
-        x: 402
-        y: 35
-        width: 824
-        height: 494
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14d03e28488ddc647be1bdb921b1bb09
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hagia_bottom_8
-      rect:
-        serializedVersion: 2
-        x: 1362
-        y: 184
-        width: 610
-        height: 490
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2639d78e82bab8040a621143393d05fd
+      spriteID: 6eb9f0c0dd91cf54dba9768dcf0c5342
       vertices: []
       indices: 
       edges: []
@@ -297,7 +213,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 901f173113a9cfa4ab666cfd851cf7b0
+    spriteID: c3906d78e7e22484b96ddbd45e3432c2
     vertices: []
     indices: 
     edges: []

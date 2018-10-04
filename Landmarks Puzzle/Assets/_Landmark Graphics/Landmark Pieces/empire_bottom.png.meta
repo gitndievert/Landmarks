@@ -6,8 +6,6 @@ TextureImporter:
     21300002: empire_bottom_1
     21300004: empire_bottom_2
     21300006: empire_bottom_3
-    21300008: empire_bottom_4
-    21300010: empire_bottom_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -87,6 +85,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -104,10 +113,10 @@ TextureImporter:
       name: empire_bottom_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 1404
-        width: 1024
-        height: 603
+        x: 95
+        y: 1586
+        width: 579
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,7 +124,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ece62a9250075847b132bdc90b1c517
+      spriteID: e92415987d4ded049b07dc16f771f05d
       vertices: []
       indices: 
       edges: []
@@ -124,10 +133,10 @@ TextureImporter:
       name: empire_bottom_1
       rect:
         serializedVersion: 2
-        x: 1131
-        y: 1441
-        width: 529
-        height: 500
+        x: 1482
+        y: 1227
+        width: 311
+        height: 741
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,7 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c11263d0411d6d84ca8773cc64d83a7e
+      spriteID: 4fb980f9d964bfd4684b0fbcf18da76d
       vertices: []
       indices: 
       edges: []
@@ -144,10 +153,10 @@ TextureImporter:
       name: empire_bottom_2
       rect:
         serializedVersion: 2
-        x: 1732
-        y: 415
-        width: 290
-        height: 1605
+        x: 157
+        y: 324
+        width: 349
+        height: 572
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,7 +164,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbdf9c14f0bf4924595a6f16b14bbff0
+      spriteID: ad1e30c5b520d5f479a90f99284050c9
       vertices: []
       indices: 
       edges: []
@@ -164,10 +173,10 @@ TextureImporter:
       name: empire_bottom_3
       rect:
         serializedVersion: 2
-        x: 32
-        y: 550
-        width: 306
-        height: 792
+        x: 1041
+        y: 486
+        width: 349
+        height: 535
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,47 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bed2014871e017940ac0011c4e3c0115
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: empire_bottom_4
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 558
-        width: 306
-        height: 694
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c10de0c56a38d6e4898840bc62f06e7f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: empire_bottom_5
-      rect:
-        serializedVersion: 2
-        x: 1045
-        y: 150
-        width: 411
-        height: 1060
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96f147cec13c2b24d93f094d616df06f
+      spriteID: 30247baad71425f48bdec40028c77ac0
       vertices: []
       indices: 
       edges: []
@@ -223,7 +192,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a8552de67c227114fa9c200111d3ca8b
+    spriteID: 1160b4b18f2f8574ca265a307add5b12
     vertices: []
     indices: 
     edges: []

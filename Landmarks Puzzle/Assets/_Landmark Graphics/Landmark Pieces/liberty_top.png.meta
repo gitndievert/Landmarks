@@ -6,7 +6,6 @@ TextureImporter:
     21300002: liberty_top_1
     21300004: liberty_top_2
     21300006: liberty_top_3
-    21300008: liberty_top_4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -114,10 +113,10 @@ TextureImporter:
       name: liberty_top_0
       rect:
         serializedVersion: 2
-        x: 154
-        y: 1358
-        width: 327
-        height: 617
+        x: 249
+        y: 1115
+        width: 473
+        height: 767
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,7 +124,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2a127be06b35a848944a6294a73b541
+      spriteID: ce6bd40296c746746b70672cfa17c90e
       vertices: []
       indices: 
       edges: []
@@ -134,10 +133,10 @@ TextureImporter:
       name: liberty_top_1
       rect:
         serializedVersion: 2
-        x: 840
-        y: 616
-        width: 304
-        height: 901
+        x: 1272
+        y: 1258
+        width: 373
+        height: 445
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,7 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c61ea21801fbc6d468de5f55e3d96580
+      spriteID: c214d2b356a49254e9bf6907c9355697
       vertices: []
       indices: 
       edges: []
@@ -154,10 +153,10 @@ TextureImporter:
       name: liberty_top_2
       rect:
         serializedVersion: 2
-        x: 1564
-        y: 1442
-        width: 427
-        height: 512
+        x: 22
+        y: 39
+        width: 923
+        height: 475
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,7 +164,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c70f72e0af4b13e42a712ef384df0dc3
+      spriteID: 7c1eb5f4f1690e5488a3bd91e70b0b4f
       vertices: []
       indices: 
       edges: []
@@ -174,10 +173,10 @@ TextureImporter:
       name: liberty_top_3
       rect:
         serializedVersion: 2
-        x: 70
-        y: 57
-        width: 953
-        height: 224
+        x: 1291
+        y: 55
+        width: 592
+        height: 389
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,27 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efae014594f695941b7c9d0f17e3d578
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: liberty_top_4
-      rect:
-        serializedVersion: 2
-        x: 1620
-        y: 84
-        width: 302
-        height: 904
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14b6bd19a81f45a42aef0a0b3382e227
+      spriteID: 80f5ea8ad27beb04f8311a05144a76f1
       vertices: []
       indices: 
       edges: []
@@ -213,7 +192,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 761489d2354dcfe409ef2f2043d1b372
+    spriteID: f470ca48a8cd47b479fda81f2c71e6e4
     vertices: []
     indices: 
     edges: []

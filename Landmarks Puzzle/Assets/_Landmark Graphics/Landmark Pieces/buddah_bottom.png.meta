@@ -7,7 +7,6 @@ TextureImporter:
     21300004: buddah_bottom_2
     21300006: buddah_bottom_3
     21300008: buddah_bottom_4
-    21300010: buddah_bottom_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -115,10 +114,10 @@ TextureImporter:
       name: buddah_bottom_0
       rect:
         serializedVersion: 2
-        x: 74
-        y: 804
-        width: 446
-        height: 1176
+        x: 66
+        y: 1189
+        width: 497
+        height: 822
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,7 +125,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee7bff0b40975d3408e91675adaff03d
+      spriteID: 8b412c7fb47b88b4ba4452e6203b6c0c
       vertices: []
       indices: 
       edges: []
@@ -135,10 +134,10 @@ TextureImporter:
       name: buddah_bottom_1
       rect:
         serializedVersion: 2
-        x: 692
-        y: 1040
-        width: 591
-        height: 817
+        x: 920
+        y: 1673
+        width: 507
+        height: 322
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,7 +145,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbab0578c38258448a8075559781e7c5
+      spriteID: 128a12a88d8c89448b14167c041f3e88
       vertices: []
       indices: 
       edges: []
@@ -155,10 +154,10 @@ TextureImporter:
       name: buddah_bottom_2
       rect:
         serializedVersion: 2
-        x: 1403
-        y: 1527
-        width: 560
-        height: 459
+        x: 1646
+        y: 670
+        width: 332
+        height: 1333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,7 +165,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1793112aa058113408417b5797c66383
+      spriteID: a561c18b9fc0ec64a824f2fe265d5f7a
       vertices: []
       indices: 
       edges: []
@@ -175,10 +174,10 @@ TextureImporter:
       name: buddah_bottom_3
       rect:
         serializedVersion: 2
-        x: 1492
-        y: 561
-        width: 427
-        height: 814
+        x: 928
+        y: 603
+        width: 336
+        height: 824
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,7 +185,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41a39a447e52fb54a83af2e83ac0c416
+      spriteID: bcef2a47de57648409fdba3b2bab77cd
       vertices: []
       indices: 
       edges: []
@@ -195,10 +194,10 @@ TextureImporter:
       name: buddah_bottom_4
       rect:
         serializedVersion: 2
-        x: 41
-        y: 53
-        width: 897
-        height: 455
+        x: 39
+        y: 38
+        width: 1479
+        height: 383
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,27 +205,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30a53e9f91cb23b4e9fdec3dc3011f94
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: buddah_bottom_5
-      rect:
-        serializedVersion: 2
-        x: 1195
-        y: 44
-        width: 560
-        height: 346
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93d108d822f6a884cbfaf9e4a855566f
+      spriteID: 9be419ef790a0e94b85e26ad045fd777
       vertices: []
       indices: 
       edges: []
@@ -234,7 +213,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a03fa84c08c4bea4caa9f5117d9d9e78
+    spriteID: cfd5c27f3387e2546af11c248eade9db
     vertices: []
     indices: 
     edges: []

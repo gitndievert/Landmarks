@@ -7,7 +7,6 @@ TextureImporter:
     21300004: chichen_top_2
     21300006: chichen_top_3
     21300008: chichen_top_4
-    21300010: chichen_top_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -115,10 +114,10 @@ TextureImporter:
       name: chichen_top_0
       rect:
         serializedVersion: 2
-        x: 67
-        y: 1480
-        width: 713
-        height: 462
+        x: 152
+        y: 1153
+        width: 563
+        height: 808
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,7 +125,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30295980054711a49aef3ba9b60bea9d
+      spriteID: 4c504fefd85eba74c9dc0444bd96dee1
       vertices: []
       indices: 
       edges: []
@@ -135,10 +134,10 @@ TextureImporter:
       name: chichen_top_1
       rect:
         serializedVersion: 2
-        x: 1038
-        y: 1501
-        width: 881
-        height: 458
+        x: 1309
+        y: 1327
+        width: 700
+        height: 689
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,7 +145,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc1347521891a674995ed50f8fe43b88
+      spriteID: 2ac090c6a7903ce43b19675e365abe0b
       vertices: []
       indices: 
       edges: []
@@ -155,10 +154,10 @@ TextureImporter:
       name: chichen_top_2
       rect:
         serializedVersion: 2
-        x: 222
-        y: 741
-        width: 588
-        height: 621
+        x: 1595
+        y: 931
+        width: 389
+        height: 304
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,7 +165,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a47fd6c1533e7847bd9270c72c7e5bc
+      spriteID: 5bd7dc0dc25590a44ac2bb73f0ca5b73
       vertices: []
       indices: 
       edges: []
@@ -175,10 +174,10 @@ TextureImporter:
       name: chichen_top_3
       rect:
         serializedVersion: 2
-        x: 1334
-        y: 782
-        width: 580
-        height: 618
+        x: 244
+        y: 270
+        width: 588
+        height: 635
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,7 +185,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 588630608c8969a478f054fdfb1e64f0
+      spriteID: 75e8ec2eebf676c4faa65520f1e8a703
       vertices: []
       indices: 
       edges: []
@@ -195,10 +194,10 @@ TextureImporter:
       name: chichen_top_4
       rect:
         serializedVersion: 2
-        x: 226
-        y: 23
-        width: 409
-        height: 614
+        x: 1214
+        y: 25
+        width: 785
+        height: 131
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,27 +205,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29004bedb04ef71468c4e8e812961e62
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chichen_top_5
-      rect:
-        serializedVersion: 2
-        x: 1344
-        y: 107
-        width: 471
-        height: 347
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33d5ff43a61e9284e8f7beb33d8a1368
+      spriteID: 6985721d0125f3b44939be3c729e094a
       vertices: []
       indices: 
       edges: []
@@ -234,7 +213,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 532256cc891d5fb49a3ef99de43e95ed
+    spriteID: 711fe1eca3600184a84565db759369ce
     vertices: []
     indices: 
     edges: []

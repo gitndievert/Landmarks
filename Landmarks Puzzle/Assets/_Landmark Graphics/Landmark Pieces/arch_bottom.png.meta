@@ -6,7 +6,6 @@ TextureImporter:
     21300002: arch_bottom_1
     21300004: arch_bottom_2
     21300006: arch_bottom_3
-    21300008: arch_bottom_4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -114,10 +113,10 @@ TextureImporter:
       name: arch_bottom_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 1140
-        width: 1114
-        height: 885
+        x: 89
+        y: 1316
+        width: 1273
+        height: 671
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,7 +124,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 444860214e3ccda4c986bf6ba12863a7
+      spriteID: a20d3d763b0e96e489cefd7f6fad98d5
       vertices: []
       indices: 
       edges: []
@@ -134,10 +133,10 @@ TextureImporter:
       name: arch_bottom_1
       rect:
         serializedVersion: 2
-        x: 1371
-        y: 1228
-        width: 617
-        height: 760
+        x: 1487
+        y: 802
+        width: 553
+        height: 1216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,7 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1830ec32b2060f4592cfeb6cec0a741
+      spriteID: 1c3f4990cae3d36459654c4d52e5e33f
       vertices: []
       indices: 
       edges: []
@@ -154,10 +153,10 @@ TextureImporter:
       name: arch_bottom_2
       rect:
         serializedVersion: 2
-        x: 31
-        y: 30
-        width: 431
-        height: 1061
+        x: 230
+        y: 74
+        width: 412
+        height: 658
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,7 +164,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ed1afbf6ec64a849b1916cf7de4badb
+      spriteID: 88eae4bb138001240bf4778e72a7cdce
       vertices: []
       indices: 
       edges: []
@@ -174,10 +173,10 @@ TextureImporter:
       name: arch_bottom_3
       rect:
         serializedVersion: 2
-        x: 626
-        y: 46
-        width: 903
-        height: 636
+        x: 858
+        y: 86
+        width: 530
+        height: 644
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,27 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd0ee6ed276d7de4b93bf57bd152b72d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arch_bottom_4
-      rect:
-        serializedVersion: 2
-        x: 1670
-        y: 54
-        width: 347
-        height: 468
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 669c4e81f5adcc04e94fc44735619f02
+      spriteID: e6ce34acd7861f541a091d7bc09f1b75
       vertices: []
       indices: 
       edges: []
@@ -213,7 +192,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 951def796b570d241bb3ec46570d698e
+    spriteID: 79cfcd2ea9dca534aaa2852f531a1154
     vertices: []
     indices: 
     edges: []

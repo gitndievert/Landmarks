@@ -6,7 +6,6 @@ TextureImporter:
     21300002: liberty_bottom_1
     21300004: liberty_bottom_2
     21300006: liberty_bottom_3
-    21300008: liberty_bottom_4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -114,10 +113,10 @@ TextureImporter:
       name: liberty_bottom_0
       rect:
         serializedVersion: 2
-        x: 154
-        y: 1358
-        width: 327
-        height: 617
+        x: 244
+        y: 1110
+        width: 483
+        height: 777
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,7 +124,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfb7435e284e85b44b4205f6ccc8b6bb
+      spriteID: 906240abe02963c46bb9c0e910b802a8
       vertices: []
       indices: 
       edges: []
@@ -134,10 +133,10 @@ TextureImporter:
       name: liberty_bottom_1
       rect:
         serializedVersion: 2
-        x: 840
-        y: 616
-        width: 304
-        height: 901
+        x: 1267
+        y: 1253
+        width: 383
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,7 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5eae3d23379e2a74f8c911db0304bcf2
+      spriteID: 486eeebee691a464f9c1d91e382d7a88
       vertices: []
       indices: 
       edges: []
@@ -154,10 +153,10 @@ TextureImporter:
       name: liberty_bottom_2
       rect:
         serializedVersion: 2
-        x: 1564
-        y: 1442
-        width: 428
-        height: 512
+        x: 17
+        y: 34
+        width: 933
+        height: 485
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,7 +164,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e55a29b7af8f2484cae54897bf6045ed
+      spriteID: 0850806d5cb9cd442803c8860f800ca2
       vertices: []
       indices: 
       edges: []
@@ -174,10 +173,10 @@ TextureImporter:
       name: liberty_bottom_3
       rect:
         serializedVersion: 2
-        x: 70
-        y: 57
-        width: 953
-        height: 224
+        x: 1286
+        y: 50
+        width: 602
+        height: 399
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,27 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfa294dc94c78224881d8f07cd36fb1f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: liberty_bottom_4
-      rect:
-        serializedVersion: 2
-        x: 1620
-        y: 84
-        width: 302
-        height: 904
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2769fd35c48fa9841984d7e9a792e3f2
+      spriteID: 57d094bb4c61c4b41b86fe67573fc96f
       vertices: []
       indices: 
       edges: []
@@ -213,7 +192,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bc3c9bbe0a6f0954da6318b163ba948b
+    spriteID: d5706f7486b28fa4e95315ab3dd07c60
     vertices: []
     indices: 
     edges: []

@@ -7,7 +7,6 @@ TextureImporter:
     21300004: buddah_top_2
     21300006: buddah_top_3
     21300008: buddah_top_4
-    21300010: buddah_top_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -115,10 +114,10 @@ TextureImporter:
       name: buddah_top_0
       rect:
         serializedVersion: 2
-        x: 74
-        y: 804
-        width: 446
-        height: 1176
+        x: 71
+        y: 1194
+        width: 487
+        height: 812
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,7 +125,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 460a71626fd9007449134d8102ffceba
+      spriteID: f41bce8f56e9b2645ade064f8c1488bd
       vertices: []
       indices: 
       edges: []
@@ -135,10 +134,10 @@ TextureImporter:
       name: buddah_top_1
       rect:
         serializedVersion: 2
-        x: 692
-        y: 1040
-        width: 591
-        height: 817
+        x: 925
+        y: 1678
+        width: 497
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,7 +145,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50a042e88fdf6464aa49ddb8ed3c328c
+      spriteID: c1ed3777675767447b86a43264728abf
       vertices: []
       indices: 
       edges: []
@@ -155,10 +154,10 @@ TextureImporter:
       name: buddah_top_2
       rect:
         serializedVersion: 2
-        x: 1403
-        y: 1527
-        width: 560
-        height: 459
+        x: 1651
+        y: 675
+        width: 322
+        height: 1323
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,7 +165,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe458ae115d3a2940a1f01681866dc4c
+      spriteID: 5498a427727cce84d8c348e4d34ad9ba
       vertices: []
       indices: 
       edges: []
@@ -175,9 +174,9 @@ TextureImporter:
       name: buddah_top_3
       rect:
         serializedVersion: 2
-        x: 1495
-        y: 561
-        width: 424
+        x: 933
+        y: 608
+        width: 326
         height: 814
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -186,7 +185,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e53d3585ece443c408305f344f856292
+      spriteID: ee5b2068762f104429d13ab2c5f095d8
       vertices: []
       indices: 
       edges: []
@@ -195,10 +194,10 @@ TextureImporter:
       name: buddah_top_4
       rect:
         serializedVersion: 2
-        x: 41
-        y: 53
-        width: 897
-        height: 455
+        x: 44
+        y: 43
+        width: 1469
+        height: 373
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,27 +205,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ebd45440b593f0448a05750d45e30f8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: buddah_top_5
-      rect:
-        serializedVersion: 2
-        x: 1195
-        y: 44
-        width: 561
-        height: 348
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c44cdfc956cd33a48a2aa48b0c051f4c
+      spriteID: df800b91b7d0be3478a2763d141c31df
       vertices: []
       indices: 
       edges: []
@@ -234,7 +213,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 536664c5b67f45441bcadea66a261c92
+    spriteID: 5bb63a056ffeb864c88df0c48a0b761c
     vertices: []
     indices: 
     edges: []

@@ -5,9 +5,6 @@ TextureImporter:
     21300000: shrine_bottom_0
     21300002: shrine_bottom_1
     21300004: shrine_bottom_2
-    21300006: shrine_bottom_3
-    21300008: shrine_bottom_4
-    21300010: shrine_bottom_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -115,10 +112,10 @@ TextureImporter:
       name: shrine_bottom_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 1355
-        width: 968
-        height: 640
+        x: 751
+        y: 1553
+        width: 580
+        height: 484
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,7 +123,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ad7b31757fd80541a7aadfafd2b4f37
+      spriteID: 6425729d85e7a3245a5fd9395bb2ce88
       vertices: []
       indices: 
       edges: []
@@ -135,10 +132,10 @@ TextureImporter:
       name: shrine_bottom_1
       rect:
         serializedVersion: 2
-        x: 1537
-        y: 1484
-        width: 440
-        height: 485
+        x: 31
+        y: 23
+        width: 715
+        height: 1491
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,7 +143,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6971e04b3d066b7418adda8e42c4e400
+      spriteID: 5dd29adcdb8c5ea41a1dd3a148e4a0c6
       vertices: []
       indices: 
       edges: []
@@ -155,10 +152,10 @@ TextureImporter:
       name: shrine_bottom_2
       rect:
         serializedVersion: 2
-        x: 77
-        y: 577
-        width: 169
-        height: 626
+        x: 1334
+        y: 12
+        width: 701
+        height: 1494
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,67 +163,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d8ce9e4c559ce241af8aeb8985fd9eb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shrine_bottom_3
-      rect:
-        serializedVersion: 2
-        x: 548
-        y: 260
-        width: 185
-        height: 825
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50cfd5e45771a9046b75ce3285874b85
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shrine_bottom_4
-      rect:
-        serializedVersion: 2
-        x: 949
-        y: 612
-        width: 164
-        height: 292
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f541499eb460dd45a377ddfa63173e5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shrine_bottom_5
-      rect:
-        serializedVersion: 2
-        x: 1377
-        y: 44
-        width: 640
-        height: 715
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b023eb2c8ea05240817b55516436116
+      spriteID: 7781e477dbbaded4785282a25762f624
       vertices: []
       indices: 
       edges: []
@@ -234,7 +171,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d3cdb19a4f117e24bba1cd8416e73a16
+    spriteID: f9494e639c4528542b59e7148e850c10
     vertices: []
     indices: 
     edges: []
