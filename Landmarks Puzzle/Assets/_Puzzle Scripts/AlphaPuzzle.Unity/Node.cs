@@ -12,25 +12,7 @@ public class Node : MonoBehaviour
     {        
         _scene = SceneSelector.Instance;
     }
-    
-    void Update()
-    {
-        /*if (IsCompleted && _bgRend.sprite != Completed)
-        {
-            //Add the star wrapper
-            _bgRend.sprite = Completed;            
-        }
-
-        if (CanSelect && _bgRend.sprite != Selected && !IsCompleted)
-        {
-            //Kick Off Particle
-            _bgRend.sprite = Selected;            
-            Particles.FireParticle(NodeManager.Instance.SelectedEffect, transform.position);
-            if(CanSelect && Name != "A")
-                SoundManager.PlaySound(NodeManager.Instance.LetterComplete);
-        } */          
-    }
-    
+            
     void OnMouseDown()
     {
         if (!GameState.DragEnabled) return;

@@ -19,7 +19,9 @@ public class SceneSelector : DSingle<SceneSelector>
     public GameObject InGameUI;
     public GameObject MapViewUI;
     public GameObject PuzzleView;
-    public GameObject HandAnimation;    
+    public GameObject HandAnimation;
+
+    public AudioClip MapInstructions;
 
     private BoardType _selectedBoardType;
     private readonly string[] _selectedFreeLetter = new string[2];
@@ -52,6 +54,8 @@ public class SceneSelector : DSingle<SceneSelector>
         _selectedBoardType = gameBoardType;        
         MoveToMapBoard(_mapStartingPos);
         Music.Instance.PlayMusicTrack(MusicTracks.Map);
+        if (MapInstructions != null)
+            SoundManager.PlaySoundWithDelay(MapInstructions, 2f);    
         //Banner Ads
         //AdMobBanners.Instance.ShowAdBanner();
         UnityAdServices.Instance.PauseAd();

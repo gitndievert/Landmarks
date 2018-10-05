@@ -513,7 +513,7 @@ MonoBehaviour:
   LandmarkName: Spring Temple Buddha
   Country: Henan, China
   AudioDescription: {fileID: 8300000, guid: 517e9c0b37841684f951054d097f780c, type: 3}
-  Flag: {fileID: 21300014, guid: 21cd290691c8efb47a79b4981e2c451c, type: 3}
+  Flag: {fileID: 21300018, guid: 21cd290691c8efb47a79b4981e2c451c, type: 3}
 --- !u!114 &114719025261776930
 MonoBehaviour:
   m_ObjectHideFlags: 1

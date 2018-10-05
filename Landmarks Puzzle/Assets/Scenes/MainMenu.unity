@@ -113,29 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &36681422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8c6b15e8a7a8404fab1b489203eee17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textName: Map
-  layer:
-  - {fileID: 8300000, guid: 7717d2ce775502748bb80fd48a135ce9, type: 3}
-  layerNames:
-  - Layer 0
-  volumes:
-  - 1
-  loopCrossfadeBy: 0
-  layerCrossfadeBy: 2
-  loop: 1
-  layerResourceNames:
-  - 
 --- !u!1 &67920086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1212,29 +1189,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 5, y: -5}
   m_UseGraphicAlpha: 1
---- !u!114 &685865223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8c6b15e8a7a8404fab1b489203eee17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textName: Menu
-  layer:
-  - {fileID: 8300000, guid: 862f6356fd48baa4fbb1477d3a15c256, type: 3}
-  layerNames:
-  - Layer 0
-  volumes:
-  - 1
-  loopCrossfadeBy: 0
-  layerCrossfadeBy: 0
-  loop: 1
-  layerResourceNames:
-  - 
 --- !u!1 &697422205
 GameObject:
   m_ObjectHideFlags: 0
@@ -1507,6 +1461,29 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &716660589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8c6b15e8a7a8404fab1b489203eee17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textName: SONG 1
+  layer:
+  - {fileID: 8300000, guid: 7717d2ce775502748bb80fd48a135ce9, type: 3}
+  layerNames:
+  - Layer 0
+  volumes:
+  - 1
+  loopCrossfadeBy: 0
+  layerCrossfadeBy: 2
+  loop: 1
+  layerResourceNames:
+  - 
 --- !u!1 &756237414
 GameObject:
   m_ObjectHideFlags: 0
@@ -1987,6 +1964,53 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99f6cd84c7a525141b8ceef7ce8af185, type: 2}
   m_IsPrefabAsset: 0
+--- !u!114 &1067833514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8c6b15e8a7a8404fab1b489203eee17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textName: SONG 2
+  layer:
+  - {fileID: 8300000, guid: 685369f0c23e33c43816a62a1afad93e, type: 3}
+  layerNames:
+  - Layer 0
+  volumes:
+  - 0.5
+  loopCrossfadeBy: 0
+  layerCrossfadeBy: 2
+  loop: 1
+  layerResourceNames:
+  - 
+--- !u!1 &1075125906 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 149410, guid: bd73bc5d75dcf864396d1056bd48bcd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1727628215}
+--- !u!114 &1075125907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1075125906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0044b2a1fe8c73146950efed70f39ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songs:
+  - {fileID: 1884214435}
+  - {fileID: 716660589}
+  - {fileID: 1067833514}
+  globalVolume: 0.5
+  globalCrossFadeTime: 3
+  players: []
+  resourceRequestMode: 0
 --- !u!1 &1119823769
 GameObject:
   m_ObjectHideFlags: 0
@@ -3042,7 +3066,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114535391757334864, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &1742780572
@@ -3092,29 +3117,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9521bfac6214f8848ba18600eff8bb1d, type: 2}
   m_IsPrefabAsset: 0
---- !u!114 &1778237511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8c6b15e8a7a8404fab1b489203eee17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textName: Puzzle
-  layer:
-  - {fileID: 8300000, guid: 685369f0c23e33c43816a62a1afad93e, type: 3}
-  layerNames:
-  - Layer 0
-  volumes:
-  - 0.5
-  loopCrossfadeBy: 0
-  layerCrossfadeBy: 2
-  loop: 1
-  layerResourceNames:
-  - 
 --- !u!1 &1791459900
 GameObject:
   m_ObjectHideFlags: 0
@@ -3364,6 +3366,29 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1862141132}
   m_CullTransparentMesh: 0
+--- !u!114 &1884214435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8c6b15e8a7a8404fab1b489203eee17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textName: SONG 0
+  layer:
+  - {fileID: 8300000, guid: 862f6356fd48baa4fbb1477d3a15c256, type: 3}
+  layerNames:
+  - Layer 0
+  volumes:
+  - 1
+  loopCrossfadeBy: 0
+  layerCrossfadeBy: 1.5
+  loop: 1
+  layerResourceNames:
+  - 
 --- !u!1 &1921230848
 GameObject:
   m_ObjectHideFlags: 0

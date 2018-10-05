@@ -2174,6 +2174,73 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34843da00638140449bacbd86589c3c1, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1001 &333784952
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 460298, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 418.29993
+      objectReference: {fileID: 0}
+    - target: {fileID: 460298, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 460298, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460298, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460298, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460298, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460298, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 460298, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114535391757334864, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
+  m_SourcePrefab: {fileID: 100100000, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1 &333784953 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 149410, guid: bd73bc5d75dcf864396d1056bd48bcd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 333784952}
+--- !u!114 &333784954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 333784953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0044b2a1fe8c73146950efed70f39ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songs:
+  - {fileID: 409269552}
+  - {fileID: 2048894099}
+  - {fileID: 963266115}
+  globalVolume: 0.5
+  globalCrossFadeTime: 3
+  players: []
+  resourceRequestMode: 0
 --- !u!1 &337024446
 GameObject:
   m_ObjectHideFlags: 0
@@ -2323,7 +2390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc57c698bd9a3c6429074a1107fb750d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: moia
+  Name: moai
 --- !u!1 &359152973
 GameObject:
   m_ObjectHideFlags: 0
@@ -2754,6 +2821,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: basil
+--- !u!114 &409269552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8c6b15e8a7a8404fab1b489203eee17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textName: SONG 0
+  layer:
+  - {fileID: 8300000, guid: 862f6356fd48baa4fbb1477d3a15c256, type: 3}
+  layerNames:
+  - Layer 0
+  volumes:
+  - 1
+  loopCrossfadeBy: 0
+  layerCrossfadeBy: 1.5
+  loop: 1
+  layerResourceNames:
+  - 
 --- !u!1 &454951986
 GameObject:
   m_ObjectHideFlags: 0
@@ -4233,7 +4323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 324fac4c4c3a5e94b89e1cf0b2fd441f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PieceCollection: {fileID: 1857107910583908, guid: be50682303bbe5b408a08af8d805a669,
+  PieceCollection: {fileID: 1444598594745538, guid: be50682303bbe5b408a08af8d805a669,
     type: 2}
   SplitTimerSec: 0.35
   PresetSplitPositions:
@@ -4539,6 +4629,7 @@ MonoBehaviour:
   MapViewUI: {fileID: 1763747600}
   PuzzleView: {fileID: 1912597147}
   HandAnimation: {fileID: 514190618}
+  MapInstructions: {fileID: 8300000, guid: cc644c33242c8024caff2ae43ddddf54, type: 3}
 --- !u!1 &823041959
 GameObject:
   m_ObjectHideFlags: 0
@@ -4671,7 +4762,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 863127599}
   m_LocalRotation: {x: 0.40821794, y: -0.23456973, z: 0.109381676, w: 0.87542605}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 6.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4940,6 +5031,29 @@ Transform:
   m_Father: {fileID: 805636271}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963266115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8c6b15e8a7a8404fab1b489203eee17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textName: SONG 2
+  layer:
+  - {fileID: 8300000, guid: 685369f0c23e33c43816a62a1afad93e, type: 3}
+  layerNames:
+  - Layer 0
+  volumes:
+  - 0.5
+  loopCrossfadeBy: 0
+  layerCrossfadeBy: 2
+  loop: 1
+  layerResourceNames:
+  - 
 --- !u!1 &1060908824
 GameObject:
   m_ObjectHideFlags: 0
@@ -5672,7 +5786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc57c698bd9a3c6429074a1107fb750d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: goldengate
+  Name: golden
 --- !u!1 &1334806298
 GameObject:
   m_ObjectHideFlags: 0
@@ -7005,7 +7119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc57c698bd9a3c6429074a1107fb750d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: operahouse
+  Name: opera
 --- !u!1 &1532685233
 GameObject:
   m_ObjectHideFlags: 0
@@ -9676,6 +9790,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2048894099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8c6b15e8a7a8404fab1b489203eee17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textName: SONG 1
+  layer:
+  - {fileID: 8300000, guid: 7717d2ce775502748bb80fd48a135ce9, type: 3}
+  layerNames:
+  - Layer 0
+  volumes:
+  - 1
+  loopCrossfadeBy: 0
+  layerCrossfadeBy: 2
+  loop: 1
+  layerResourceNames:
+  - 
 --- !u!1 &2067131131
 GameObject:
   m_ObjectHideFlags: 0
