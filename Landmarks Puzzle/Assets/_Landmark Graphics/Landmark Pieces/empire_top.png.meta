@@ -1,13 +1,11 @@
 fileFormatVersion: 2
-guid: 2a0c579a6014d91428c9c701ffef173a
+guid: 5fb482d8927b4274bb09d724c640b4fa
 TextureImporter:
   fileIDToRecycleName:
-    21300000: empire_top_0
-    21300002: empire_top_1
-    21300004: empire_top_2
-    21300006: empire_top_3
-    21300008: empire_top_4
-    21300010: empire_top_5
+    21300000: empire_top 1_0
+    21300002: empire_top 1_1
+    21300004: empire_top 1_2
+    21300006: empire_top 1_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -112,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: empire_top_0
+      name: empire_top 1_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 1404
-        width: 1024
-        height: 604
+        x: 100
+        y: 1591
+        width: 569
+        height: 373
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,19 +124,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbcd6ee9c8cf9bd488fc103bbe7c9973
+      spriteID: 7bad6f939af0f274cb475178083229b7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: empire_top_1
+      name: empire_top 1_1
       rect:
         serializedVersion: 2
-        x: 1140
-        y: 1452
-        width: 528
-        height: 500
+        x: 1487
+        y: 1232
+        width: 301
+        height: 731
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,19 +144,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef87019fac9c8b340aa94431937e54e0
+      spriteID: f58d40d08e331244888e24180bdcf9dd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: empire_top_2
+      name: empire_top 1_2
       rect:
         serializedVersion: 2
-        x: 1732
-        y: 415
-        width: 290
-        height: 1605
+        x: 162
+        y: 329
+        width: 339
+        height: 562
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,19 +164,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 412340fff213d2145a9f7b30a607d3de
+      spriteID: 72f38bd59ba319a4aa2c01a17dcfc0c8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: empire_top_3
+      name: empire_top 1_3
       rect:
         serializedVersion: 2
-        x: 32
-        y: 550
-        width: 306
-        height: 792
+        x: 1046
+        y: 491
+        width: 339
+        height: 525
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,47 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5410e985265ced14ea0548eea02e1bd6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: empire_top_4
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 558
-        width: 306
-        height: 694
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb2d8dd81ce73a94085ab52530bca962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: empire_top_5
-      rect:
-        serializedVersion: 2
-        x: 1034
-        y: 78
-        width: 411
-        height: 1060
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 009ebade73154a24b9e0e42c5ddb8b92
+      spriteID: 2ba6ee2a1cea7874180c16ffcd3abfc2
       vertices: []
       indices: 
       edges: []
@@ -234,7 +192,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 4d9d3f6362b1ee04f9bbba0dbd781a44
+    spriteID: 2136269572f1a434a9f7ec143fcb958d
     vertices: []
     indices: 
     edges: []

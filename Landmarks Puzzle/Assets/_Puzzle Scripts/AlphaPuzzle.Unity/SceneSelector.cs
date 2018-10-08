@@ -8,7 +8,7 @@ using System.Linq;
 public class SceneSelector : DSingle<SceneSelector>
 {
     public const float BOARD_CAMERA_SIZE = 8.5f;
-    public const float MAP_CAMERA_SIZE = 10f;
+    public const float MAP_CAMERA_SIZE = 9f;
 
     public bool StartPuzzle = false;
     public Node CurrentNode;    
