@@ -1474,11 +1474,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textName: SONG 1
   layer:
-  - {fileID: 8300000, guid: 7717d2ce775502748bb80fd48a135ce9, type: 3}
+  - {fileID: 8300000, guid: 685369f0c23e33c43816a62a1afad93e, type: 3}
   layerNames:
   - Layer 0
   volumes:
-  - 1
+  - 0.5
   loopCrossfadeBy: 0
   layerCrossfadeBy: 2
   loop: 1

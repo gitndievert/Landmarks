@@ -58,7 +58,7 @@ public class SceneSelector : DSingle<SceneSelector>
             SoundManager.PlaySoundWithDelay(MapInstructions, 2f);    
         //Banner Ads
         //AdMobBanners.Instance.ShowAdBanner();
-        UnityAdServices.Instance.PauseAd();
+        //UnityAdServices.Instance.PauseAd();
         InGameUI.SetActive(false);
         MapViewUI.SetActive(true);
         PuzzleView.SetActive(false);
@@ -81,8 +81,8 @@ public class SceneSelector : DSingle<SceneSelector>
         IsCameraLocked = true;
         //Banner Ads
         //AdMobBanners.Instance.HideAdBanner();        
-        UnityAdServices.Instance.PauseAd();
-        Music.Instance.PlayMusicTrack(MusicTracks.Puzzle);
+        //UnityAdServices.Instance.PauseAd();       
+        
         MoveCamera(_puzzleBoardPos, false);
         PuzzleView.SetActive(true);
         InGameUI.SetActive(true);
@@ -104,10 +104,9 @@ public class SceneSelector : DSingle<SceneSelector>
         CurrentBoard = _selectedBoardType;        
         IsCameraLocked = false;
         Camera.main.orthographicSize = MAP_CAMERA_SIZE;
-        var banner = UnityAdServices.Instance;
-        banner.UnPauseAd();
-        Camera.main.transform.position = lastPos;
-        Music.Instance.PlayMusicTrack(MusicTracks.Map);
+        //var banner = UnityAdServices.Instance;
+        //banner.UnPauseAd();
+        Camera.main.transform.position = lastPos;        
 
         InGameUI.SetActive(false);
         MapViewUI.SetActive(true);

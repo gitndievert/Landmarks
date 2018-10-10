@@ -355,7 +355,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.033539414, y: -0.052714825}
+  m_Offset: {x: -0.05376935, y: -0.27720833}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -366,7 +366,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.1373122, y: 2.3514004}
+  m_Size: {x: 5.6067376, y: 5.045331}
   m_EdgeRadius: 0
 --- !u!114 &72996489
 MonoBehaviour:
@@ -10083,11 +10083,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textName: SONG 1
   layer:
-  - {fileID: 8300000, guid: 7717d2ce775502748bb80fd48a135ce9, type: 3}
+  - {fileID: 8300000, guid: 685369f0c23e33c43816a62a1afad93e, type: 3}
   layerNames:
   - Layer 0
   volumes:
-  - 1
+  - 0.5
   loopCrossfadeBy: 0
   layerCrossfadeBy: 2
   loop: 1
@@ -10179,7 +10179,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.012775421, y: -0.037762284}
+  m_Offset: {x: 0.022967339, y: -0.088701606}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -10190,7 +10190,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.0646806, y: 1.9062974}
+  m_Size: {x: 5.978413, y: 6.083337}
   m_EdgeRadius: 0
 --- !u!114 &2076126608
 MonoBehaviour:
