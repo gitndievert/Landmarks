@@ -1,5 +1,6 @@
 ﻿using AlphaPuzzle.State;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class CameraDrag : MonoBehaviour
 {
@@ -11,6 +12,11 @@ public class CameraDrag : MonoBehaviour
     [Space(10)]
     [Range(0, 25f)]
     public float ButtonSpeed = 10f;
+
+    /// <summary>
+    /// Prevents the UI buttons from clicking on map pieces
+    /// </summary>
+    public static bool OverGameObject { get; private set; }
 
     private Vector3 _resetCamera;
     private Vector3 _origin;
@@ -31,6 +37,7 @@ public class CameraDrag : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             //StopAllCoroutines();
+            OverGameObject = false;
             _difference = (_camera.ScreenToWorldPoint(Input.mousePosition)) - _camera.transform.position;
             if (!_drag)
             {
@@ -54,6 +61,7 @@ public class CameraDrag : MonoBehaviour
     public void OnClickDown_MoveCamera(string direction)
     {
         GameState.DragEnabled = false;
+        OverGameObject = EventSystem.current.IsPointerOverGameObject();
 
         switch (direction)
         {

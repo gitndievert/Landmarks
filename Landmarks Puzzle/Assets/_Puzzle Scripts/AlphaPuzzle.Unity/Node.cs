@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using AlphaPuzzle.State;
 
-[RequireComponent(typeof(CircleCollider2D))]
+[RequireComponent(typeof(BoxCollider2D))]
 public class Node : MonoBehaviour
 {
     public string Name;        
@@ -15,7 +15,8 @@ public class Node : MonoBehaviour
             
     void OnMouseDown()
     {
-        if (!GameState.DragEnabled) return;
+        if (CameraDrag.OverGameObject) return;
+        if (!GameState.DragEnabled) return;        
         if (_scene.HandAnimation != null)
             _scene.HandAnimation.SetActive(false);
         _scene.MoveToPuzzleBoard();
