@@ -2305,7 +2305,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 460298, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114535391757334864, guid: bd73bc5d75dcf864396d1056bd48bcd8, type: 2}
@@ -2791,58 +2791,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: empire
---- !u!1 &392403724 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1107051403611248, guid: 257b23461a3b06e479f1693639f303f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1763747598}
---- !u!114 &392403728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 392403724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 596486010}
-          m_MethodName: OnClickDown_MoveCamera
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: bottom
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  - eventID: 3
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 596486010}
-          m_MethodName: OnClick_ReleaseCamera
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: bottom
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  delegates: []
 --- !u!1 &393990694
 GameObject:
   m_ObjectHideFlags: 0
@@ -3381,58 +3329,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1799279143403494, guid: 34843da00638140449bacbd86589c3c1,
     type: 2}
   m_PrefabInternal: {fileID: 329335042}
---- !u!1 &571105304 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1868261963555870, guid: 257b23461a3b06e479f1693639f303f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1763747598}
---- !u!114 &571105308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 571105304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 596486010}
-          m_MethodName: OnClickDown_MoveCamera
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: left
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  - eventID: 3
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 596486010}
-          m_MethodName: OnClick_ReleaseCamera
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: left
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  delegates: []
 --- !u!1 &573637482 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1381953062908626, guid: b55d9a75ae4325a47bfbc5b12bed0aa9,
@@ -3790,58 +3686,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &629292855
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4741454127282520, guid: f2c769014a3f4e249974d09fd18eaa72, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 79.935646
-      objectReference: {fileID: 0}
-    - target: {fileID: 4741454127282520, guid: f2c769014a3f4e249974d09fd18eaa72, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 20.463543
-      objectReference: {fileID: 0}
-    - target: {fileID: 4741454127282520, guid: f2c769014a3f4e249974d09fd18eaa72, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4741454127282520, guid: f2c769014a3f4e249974d09fd18eaa72, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4741454127282520, guid: f2c769014a3f4e249974d09fd18eaa72, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4741454127282520, guid: f2c769014a3f4e249974d09fd18eaa72, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4741454127282520, guid: f2c769014a3f4e249974d09fd18eaa72, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4741454127282520, guid: f2c769014a3f4e249974d09fd18eaa72, type: 2}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114995015514862488, guid: f2c769014a3f4e249974d09fd18eaa72,
-        type: 2}
-      propertyPath: TestAds
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114995015514862488, guid: f2c769014a3f4e249974d09fd18eaa72,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f2c769014a3f4e249974d09fd18eaa72, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!1 &631964882
 GameObject:
   m_ObjectHideFlags: 0
@@ -6494,58 +6338,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1420712247 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1331840419645084, guid: 257b23461a3b06e479f1693639f303f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1763747598}
---- !u!114 &1420712251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1420712247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 596486010}
-          m_MethodName: OnClickDown_MoveCamera
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: right
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  - eventID: 3
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 596486010}
-          m_MethodName: OnClick_ReleaseCamera
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: right
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  delegates: []
 --- !u!1 &1421361253
 GameObject:
   m_ObjectHideFlags: 0
@@ -7440,58 +7232,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1539399993 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1897954095925556, guid: 257b23461a3b06e479f1693639f303f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1763747598}
---- !u!114 &1539399996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1539399993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 596486010}
-          m_MethodName: OnClickDown_MoveCamera
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: top
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  - eventID: 3
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 596486010}
-          m_MethodName: OnClick_ReleaseCamera
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: top
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  delegates: []
 --- !u!1 &1549584389
 GameObject:
   m_ObjectHideFlags: 0
@@ -8103,26 +7843,16 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114713233742292844, guid: e55f1b9c8345dca40a0866054be9094b,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1431424318}
     - target: {fileID: 114594751464438412, guid: e55f1b9c8345dca40a0866054be9094b,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 573637482}
-    - target: {fileID: 114816290884707856, guid: e55f1b9c8345dca40a0866054be9094b,
+    - target: {fileID: 114713233742292844, guid: e55f1b9c8345dca40a0866054be9094b,
         type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114816290884707856, guid: e55f1b9c8345dca40a0866054be9094b,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1431424318}
     - target: {fileID: 114225767550238428, guid: e55f1b9c8345dca40a0866054be9094b,
         type: 2}
       propertyPath: m_havePropertiesChanged
@@ -8133,14 +7863,15 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 224836183538975874, guid: e55f1b9c8345dca40a0866054be9094b,
+    - target: {fileID: 114816290884707856, guid: e55f1b9c8345dca40a0866054be9094b,
         type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 4.399994
+      propertyPath: m_havePropertiesChanged
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1979622161331064, guid: e55f1b9c8345dca40a0866054be9094b, type: 2}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 114816290884707856, guid: e55f1b9c8345dca40a0866054be9094b,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e55f1b9c8345dca40a0866054be9094b, type: 2}
@@ -8323,11 +8054,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 2013655616}
     m_Modifications:
-    - target: {fileID: 114729340681613920, guid: 257b23461a3b06e479f1693639f303f3,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224390946688480926, guid: 257b23461a3b06e479f1693639f303f3,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -8418,30 +8144,56 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114072148475611168, guid: 257b23461a3b06e479f1693639f303f3,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1431424318}
     - target: {fileID: 114403819048558374, guid: 257b23461a3b06e479f1693639f303f3,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1667995498}
-    - target: {fileID: 114729340681613920, guid: 257b23461a3b06e479f1693639f303f3,
+    - target: {fileID: 114072148475611168, guid: 257b23461a3b06e479f1693639f303f3,
         type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114729340681613920, guid: 257b23461a3b06e479f1693639f303f3,
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1431424318}
+    - target: {fileID: 114323530368486690, guid: 257b23461a3b06e479f1693639f303f3,
         type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1424374812427636, guid: 257b23461a3b06e479f1693639f303f3, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 596486010}
+    - target: {fileID: 114323530368486690, guid: 257b23461a3b06e479f1693639f303f3,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 596486010}
+    - target: {fileID: 114085426687760912, guid: 257b23461a3b06e479f1693639f303f3,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 596486010}
+    - target: {fileID: 114085426687760912, guid: 257b23461a3b06e479f1693639f303f3,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 596486010}
+    - target: {fileID: 114589071998003888, guid: 257b23461a3b06e479f1693639f303f3,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 596486010}
+    - target: {fileID: 114589071998003888, guid: 257b23461a3b06e479f1693639f303f3,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 596486010}
+    - target: {fileID: 114259206224060260, guid: 257b23461a3b06e479f1693639f303f3,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 596486010}
+    - target: {fileID: 114259206224060260, guid: 257b23461a3b06e479f1693639f303f3,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 596486010}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 257b23461a3b06e479f1693639f303f3, type: 2}
   m_IsPrefabAsset: 0
