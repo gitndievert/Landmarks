@@ -32,7 +32,7 @@ public class MenuManager : MonoBehaviour
         //UnityAdServices.Instance.ShowAd();
         GameState.LoadBoard = BoardType.World;
         LoadingScreen.SetActive(true);
-        SceneManager.LoadScene(MapSceneName, LoadSceneMode.Single);
+        SceneManager.LoadSceneAsync(MapSceneName, LoadSceneMode.Single);
     }
        
 
@@ -40,7 +40,7 @@ public class MenuManager : MonoBehaviour
     {
         GameState.LoadBoard = BoardType.Menu;
         SceneManager.UnloadSceneAsync(MapSceneName);
-        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+        SceneManager.LoadSceneAsync("MainMenu", LoadSceneMode.Single);
     }
 
     public void OnClick_Quit()
