@@ -1912,6 +1912,7 @@ GameObject:
   m_Component:
   - component: {fileID: 304971695}
   - component: {fileID: 304971696}
+  - component: {fileID: 304971697}
   m_Layer: 0
   m_Name: plane2
   m_TagString: Untagged
@@ -1926,7 +1927,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 304971694}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.122995, y: 6.01, z: -1}
+  m_LocalPosition: {x: 83.1, y: 0, z: -1}
   m_LocalScale: {x: 0.1885625, y: 0.1738625, z: 1.25}
   m_Children: []
   m_Father: {fileID: 2067131132}
@@ -1978,6 +1979,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &304971697
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 304971694}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 18ad756c0bfa4b742a3100f618f8f7c9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &308651146
 Prefab:
   m_ObjectHideFlags: 0
@@ -4793,6 +4812,7 @@ GameObject:
   m_Component:
   - component: {fileID: 890792517}
   - component: {fileID: 890792518}
+  - component: {fileID: 890792519}
   m_Layer: 0
   m_Name: balloon1
   m_TagString: Untagged
@@ -4807,7 +4827,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 890792516}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.298, y: 3.138, z: -1}
+  m_LocalPosition: {x: 21.8, y: 3.138, z: -1}
   m_LocalScale: {x: 0.114262514, y: 0.1073219, z: 1.25}
   m_Children: []
   m_Father: {fileID: 2067131132}
@@ -4859,6 +4879,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &890792519
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 890792516}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e0902c6f1aeda3f49975b2ffbe249798, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &900146915
 GameObject:
   m_ObjectHideFlags: 0
@@ -9637,13 +9675,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2002800309}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8, y: 21, z: -1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.48553357, w: 0.874218}
+  m_LocalPosition: {x: -13.499999, y: 35.2, z: -1}
   m_LocalScale: {x: 0.1885575, y: 0.17386499, z: 1.25}
   m_Children: []
   m_Father: {fileID: 2067131132}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -58.095}
 --- !u!212 &2002800311
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9717,6 +9755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2005100036}
   - component: {fileID: 2005100037}
+  - component: {fileID: 2005100038}
   m_Layer: 0
   m_Name: whale2
   m_TagString: Untagged
@@ -9783,6 +9822,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2005100038
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2005100035}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c82a3a771daf863448aaa63b1a66854c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2013655615
 GameObject:
   m_ObjectHideFlags: 0

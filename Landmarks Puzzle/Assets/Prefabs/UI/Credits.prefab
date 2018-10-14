@@ -313,13 +313,13 @@ MonoBehaviour:
   m_text: 'App created by Wacky Potato Games!
 
 
-    Voice Over by Lisa D
-
-
     All music by www.bensound.com
 
 
-    Special thanks to all our kids who helped test our app!'
+    Special thanks to all our kids who helped test our app!
+
+
+    Find out about us on wackypotato.com'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -387,10 +387,10 @@ MonoBehaviour:
   m_margin: {x: -86.1785, y: -1.8335592, z: -115.51578, w: -220.94707}
   m_textInfo:
     textComponent: {fileID: 114985355008384876}
-    characterCount: 144
+    characterCount: 160
     spriteCount: 0
-    spaceCount: 28
-    wordCount: 28
+    spaceCount: 29
+    wordCount: 30
     linkCount: 0
     lineCount: 8
     pageCount: 1

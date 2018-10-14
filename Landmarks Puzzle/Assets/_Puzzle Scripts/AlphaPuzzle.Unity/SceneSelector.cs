@@ -21,7 +21,7 @@ public class SceneSelector : DSingle<SceneSelector>
     public GameObject PuzzleView;
     public GameObject HandAnimation;
 
-    public AudioClip MapInstructions;
+    public GameObject MapInstructions;
 
     private BoardType _selectedBoardType;
     private readonly string[] _selectedFreeLetter = new string[2];
@@ -41,7 +41,7 @@ public class SceneSelector : DSingle<SceneSelector>
     }
 
     void Start()
-    {
+    {        
         GameState.LoadData();
         GameState.DragEnabled = true;
         if (HandAnimation != null)
@@ -55,7 +55,10 @@ public class SceneSelector : DSingle<SceneSelector>
         MoveToMapBoard(_mapStartingPos);
         Music.Instance.PlayMusicTrack(MusicTracks.Map);
         if (MapInstructions != null)
-            SoundManager.PlaySoundWithDelay(MapInstructions, 2f);    
+        {
+            //This is where the prefab will pop out
+        }
+                
         //Banner Ads
         //AdMobBanners.Instance.ShowAdBanner();
         //UnityAdServices.Instance.PauseAd();
@@ -106,7 +109,7 @@ public class SceneSelector : DSingle<SceneSelector>
         Camera.main.orthographicSize = MAP_CAMERA_SIZE;
         //var banner = UnityAdServices.Instance;
         //banner.UnPauseAd();
-        Camera.main.transform.position = lastPos;        
+        Camera.main.transform.position = lastPos;
 
         InGameUI.SetActive(false);
         MapViewUI.SetActive(true);
