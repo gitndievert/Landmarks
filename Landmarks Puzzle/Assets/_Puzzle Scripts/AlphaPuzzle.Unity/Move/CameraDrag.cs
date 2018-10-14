@@ -29,6 +29,7 @@ public class CameraDrag : MonoBehaviour
     {
         _camera = Camera.main;
         _buttonDrag = false;
+        Input.multiTouchEnabled = false;
     }
 
     void Update()

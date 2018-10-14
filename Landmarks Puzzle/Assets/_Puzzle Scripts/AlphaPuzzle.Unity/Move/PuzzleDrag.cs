@@ -20,6 +20,7 @@ public class PuzzleDrag : MonoBehaviour
     void Start()
     {
         _dragCollider = transform.GetComponent<Collider2D>();
+        Input.multiTouchEnabled = false;
     }
 
     void Update()
