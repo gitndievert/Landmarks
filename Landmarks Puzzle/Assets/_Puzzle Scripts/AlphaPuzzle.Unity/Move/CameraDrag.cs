@@ -11,19 +11,14 @@ public class CameraDrag : MonoBehaviour
     public float YMaxBounds = -83.20f;
     [Space(10)]
     [Range(0, 25f)]
-    public float ButtonSpeed = 10f;
-
-    /// <summary>
-    /// Prevents the UI buttons from clicking on map pieces
-    /// </summary>
-    public static bool OverGameObject { get; private set; }
+    public float ButtonSpeed = 10f;    
 
     private Vector3 _resetCamera;
     private Vector3 _origin;
     private Vector3 _difference;
     private bool _drag;
     private Camera _camera;
-    private bool _buttonDrag;
+    private bool _buttonDrag;   
 
     void Start()
     {
@@ -33,12 +28,11 @@ public class CameraDrag : MonoBehaviour
     }
 
     void Update()
-    {
-        if(SceneSelector.Instance.IsCameraLocked || !GameState.DragEnabled) return;        
+    {        
+        if (SceneSelector.Instance.IsCameraLocked || !GameState.DragEnabled) return;        
         if (Input.GetMouseButton(0))
         {
-            //StopAllCoroutines();
-            OverGameObject = false;
+            //StopAllCoroutines();            
             _difference = (_camera.ScreenToWorldPoint(Input.mousePosition)) - _camera.transform.position;
             if (!_drag)
             {
@@ -60,10 +54,8 @@ public class CameraDrag : MonoBehaviour
     }  
 
     public void OnClickDown_MoveCamera(string direction)
-    {
-        GameState.DragEnabled = false;
-        OverGameObject = EventSystem.current.IsPointerOverGameObject();
-
+    {        
+        GameState.DragEnabled = false;        
         switch (direction)
         {
             case "top":

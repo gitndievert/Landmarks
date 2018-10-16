@@ -1,5 +1,6 @@
 ﻿using AlphaPuzzle.State;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class UIPanel : MonoBehaviour
 {   
@@ -15,4 +16,5 @@ public class UIPanel : MonoBehaviour
     {
         GameState.DragEnabled = true;
     }
+
 }

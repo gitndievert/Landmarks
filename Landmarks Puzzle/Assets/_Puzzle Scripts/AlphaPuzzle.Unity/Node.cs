@@ -1,26 +1,23 @@
 ﻿using UnityEngine;
 using AlphaPuzzle.State;
 
-[RequireComponent(typeof(BoxCollider2D))]
-public class Node : MonoBehaviour
-{
-    public string Name;        
-        
+public class Node : MapObject
+{       
     private SceneSelector _scene;    
     
     void Start()
     {        
         _scene = SceneSelector.Instance;
     }
-            
-    void OnMouseDown()
+
+    protected override void OnMouseDown()
     {
-        if (CameraDrag.OverGameObject) return;
-        if (!GameState.DragEnabled) return;        
+        if (GameState.IsOverGameObject) return;
+        if (!GameState.DragEnabled) return;
         if (_scene.HandAnimation != null)
-            _scene.HandAnimation.SetActive(false);
+            _scene.HandAnimation.SetActive(false);        
         _scene.MoveToPuzzleBoard();
         PieceManager.Instance.StartNextPuzzle(Name, this);
-    }    
-
+    }
+   
 }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 863127600}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.4964127, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -453,6 +453,8 @@ GameObject:
   m_Component:
   - component: {fileID: 91269621}
   - component: {fileID: 91269622}
+  - component: {fileID: 91269624}
+  - component: {fileID: 91269623}
   m_Layer: 0
   m_Name: seal
   m_TagString: Untagged
@@ -519,6 +521,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &91269623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 91269620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf94e68b1149e274096ef1a86781ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Seal
+  OnTapSound: {fileID: 8300000, guid: 57eef2715d0152845a6ee6a580618c7a, type: 3}
+  AnimateOnTap: 0
+--- !u!61 &91269624
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 91269620}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 18.980001}
+    newSize: {x: 20.48, y: 20.04}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.48, y: 18.980001}
+  m_EdgeRadius: 0
 --- !u!1 &109321193
 GameObject:
   m_ObjectHideFlags: 0
@@ -1209,6 +1250,8 @@ GameObject:
   m_Component:
   - component: {fileID: 240457423}
   - component: {fileID: 240457424}
+  - component: {fileID: 240457426}
+  - component: {fileID: 240457425}
   m_Layer: 0
   m_Name: elephant
   m_TagString: Untagged
@@ -1275,6 +1318,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &240457425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 240457422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf94e68b1149e274096ef1a86781ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Elephant
+  OnTapSound: {fileID: 8300000, guid: f439f13a2fad6844fb6a8d3e891e5e79, type: 3}
+  AnimateOnTap: 0
+--- !u!61 &240457426
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 240457422}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 13.02}
+    newSize: {x: 20.48, y: 20.04}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.48, y: 13.02}
+  m_EdgeRadius: 0
 --- !u!1 &244467814
 GameObject:
   m_ObjectHideFlags: 0
@@ -1913,6 +1995,8 @@ GameObject:
   - component: {fileID: 304971695}
   - component: {fileID: 304971696}
   - component: {fileID: 304971697}
+  - component: {fileID: 304971699}
+  - component: {fileID: 304971698}
   m_Layer: 0
   m_Name: plane2
   m_TagString: Untagged
@@ -1997,6 +2081,45 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &304971698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 304971694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf94e68b1149e274096ef1a86781ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Plane
+  OnTapSound: {fileID: 8300000, guid: 0d149ab7ca89827418b4e0b22b7a1137, type: 3}
+  AnimateOnTap: 0
+--- !u!61 &304971699
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 304971694}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 19.51}
+    newSize: {x: 20.48, y: 19.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.48, y: 19.51}
+  m_EdgeRadius: 0
 --- !u!1001 &308651146
 Prefab:
   m_ObjectHideFlags: 0
@@ -2116,6 +2239,8 @@ GameObject:
   m_Component:
   - component: {fileID: 309949870}
   - component: {fileID: 309949871}
+  - component: {fileID: 309949873}
+  - component: {fileID: 309949872}
   m_Layer: 0
   m_Name: Penguin (1)
   m_TagString: Untagged
@@ -2182,6 +2307,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &309949872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 309949869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf94e68b1149e274096ef1a86781ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Penguins
+  OnTapSound: {fileID: 8300000, guid: df1caf81a7c12c64a98520134a425a90, type: 3}
+  AnimateOnTap: 0
+--- !u!61 &309949873
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 309949869}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 20.04}
+    newSize: {x: 20.48, y: 20.04}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.48, y: 20.04}
+  m_EdgeRadius: 0
 --- !u!1001 &329335042
 Prefab:
   m_ObjectHideFlags: 0
@@ -3979,6 +4143,8 @@ GameObject:
   m_Component:
   - component: {fileID: 648659304}
   - component: {fileID: 648659305}
+  - component: {fileID: 648659307}
+  - component: {fileID: 648659306}
   m_Layer: 0
   m_Name: Penguin
   m_TagString: Untagged
@@ -4045,6 +4211,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &648659306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 648659303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf94e68b1149e274096ef1a86781ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Penguins
+  OnTapSound: {fileID: 8300000, guid: df1caf81a7c12c64a98520134a425a90, type: 3}
+  AnimateOnTap: 0
+--- !u!61 &648659307
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 648659303}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 20.04}
+    newSize: {x: 20.48, y: 20.04}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.48, y: 20.04}
+  m_EdgeRadius: 0
 --- !u!1001 &670627820
 Prefab:
   m_ObjectHideFlags: 0
@@ -4174,6 +4379,8 @@ GameObject:
   m_Component:
   - component: {fileID: 670743090}
   - component: {fileID: 670743091}
+  - component: {fileID: 670743093}
+  - component: {fileID: 670743092}
   m_Layer: 0
   m_Name: Penguin (2)
   m_TagString: Untagged
@@ -4240,6 +4447,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &670743092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 670743089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf94e68b1149e274096ef1a86781ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Penguins
+  OnTapSound: {fileID: 8300000, guid: df1caf81a7c12c64a98520134a425a90, type: 3}
+  AnimateOnTap: 0
+--- !u!61 &670743093
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 670743089}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 20.04}
+    newSize: {x: 20.48, y: 20.04}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.48, y: 20.04}
+  m_EdgeRadius: 0
 --- !u!1 &723270364
 GameObject:
   m_ObjectHideFlags: 0
@@ -4391,6 +4637,8 @@ GameObject:
   m_Component:
   - component: {fileID: 783843558}
   - component: {fileID: 783843559}
+  - component: {fileID: 783843561}
+  - component: {fileID: 783843560}
   m_Layer: 0
   m_Name: boat3
   m_TagString: Untagged
@@ -4457,6 +4705,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &783843560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 783843557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf94e68b1149e274096ef1a86781ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Boat
+  OnTapSound: {fileID: 8300000, guid: a6a3453c784b7cd4a8802fe4c1d10910, type: 3}
+  AnimateOnTap: 0
+--- !u!61 &783843561
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 783843557}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 20.51}
+    newSize: {x: 20.48, y: 19.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.48, y: 20.51}
+  m_EdgeRadius: 0
 --- !u!1 &788847284
 GameObject:
   m_ObjectHideFlags: 0
@@ -5739,6 +6026,8 @@ GameObject:
   - component: {fileID: 1288080080}
   - component: {fileID: 1288080081}
   - component: {fileID: 1288080082}
+  - component: {fileID: 1288080084}
+  - component: {fileID: 1288080083}
   m_Layer: 0
   m_Name: boat1
   m_TagString: Untagged
@@ -5813,13 +6102,52 @@ Animation:
   m_GameObject: {fileID: 1288080079}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: 012efbc2de68aee409834dc78c9c21b2, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 012efbc2de68aee409834dc78c9c21b2, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &1288080083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1288080079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf94e68b1149e274096ef1a86781ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Boat
+  OnTapSound: {fileID: 8300000, guid: a6a3453c784b7cd4a8802fe4c1d10910, type: 3}
+  AnimateOnTap: 0
+--- !u!61 &1288080084
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1288080079}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 20.51}
+    newSize: {x: 20.48, y: 19.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.48, y: 20.51}
+  m_EdgeRadius: 0
 --- !u!1 &1326523355
 GameObject:
   m_ObjectHideFlags: 0
@@ -6132,6 +6460,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1371990420}
   - component: {fileID: 1371990421}
+  - component: {fileID: 1371990423}
+  - component: {fileID: 1371990422}
   m_Layer: 0
   m_Name: walrus
   m_TagString: Untagged
@@ -6198,6 +6528,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1371990422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1371990419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf94e68b1149e274096ef1a86781ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Walrus
+  OnTapSound: {fileID: 8300000, guid: 3202e43942f41e54d8f837427adbbc78, type: 3}
+  AnimateOnTap: 0
+--- !u!61 &1371990423
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1371990419}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 16.04}
+    newSize: {x: 20.48, y: 20.04}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.48, y: 16.04}
+  m_EdgeRadius: 0
 --- !u!1001 &1373522663
 Prefab:
   m_ObjectHideFlags: 0
@@ -7579,6 +7948,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1642440528}
   - component: {fileID: 1642440529}
+  - component: {fileID: 1642440531}
+  - component: {fileID: 1642440530}
   m_Layer: 0
   m_Name: whale1
   m_TagString: Untagged
@@ -7645,6 +8016,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1642440530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1642440527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf94e68b1149e274096ef1a86781ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Whale
+  OnTapSound: {fileID: 8300000, guid: f3d4815c2cebf224e8622fb714b6e254, type: 3}
+  AnimateOnTap: 0
+--- !u!61 &1642440531
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1642440527}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 11.83}
+    newSize: {x: 20.48, y: 13.4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.48, y: 11.83}
+  m_EdgeRadius: 0
 --- !u!1001 &1667995496
 Prefab:
   m_ObjectHideFlags: 0
@@ -8673,6 +9083,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1802086349}
   - component: {fileID: 1802086350}
+  - component: {fileID: 1802086352}
+  - component: {fileID: 1802086351}
   m_Layer: 0
   m_Name: polar bear
   m_TagString: Untagged
@@ -8739,6 +9151,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1802086351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1802086348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf94e68b1149e274096ef1a86781ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Polar Bear
+  OnTapSound: {fileID: 8300000, guid: 3202e43942f41e54d8f837427adbbc78, type: 3}
+  AnimateOnTap: 0
+--- !u!61 &1802086352
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1802086348}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 24.25}
+    newSize: {x: 20.48, y: 24.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.48, y: 24.25}
+  m_EdgeRadius: 0
 --- !u!1 &1821164532 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1485304199900320, guid: e55f1b9c8345dca40a0866054be9094b,
@@ -9065,6 +9516,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1934407572}
   - component: {fileID: 1934407573}
+  - component: {fileID: 1934407575}
+  - component: {fileID: 1934407574}
   m_Layer: 0
   m_Name: puffin
   m_TagString: Untagged
@@ -9131,6 +9584,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1934407574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1934407571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf94e68b1149e274096ef1a86781ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Puffin
+  OnTapSound: {fileID: 8300000, guid: 8932ffc2d6fd1394ea7a40d9d41cc498, type: 3}
+  AnimateOnTap: 0
+--- !u!61 &1934407575
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1934407571}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 20.72}
+    newSize: {x: 20.48, y: 20.04}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.48, y: 20.72}
+  m_EdgeRadius: 0
 --- !u!1 &1938082561
 GameObject:
   m_ObjectHideFlags: 0
@@ -9296,6 +9788,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1976088984}
   - component: {fileID: 1976088985}
+  - component: {fileID: 1976088987}
+  - component: {fileID: 1976088986}
   m_Layer: 0
   m_Name: boat2
   m_TagString: Untagged
@@ -9362,6 +9856,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1976088986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1976088983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf94e68b1149e274096ef1a86781ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Boat
+  OnTapSound: {fileID: 8300000, guid: a6a3453c784b7cd4a8802fe4c1d10910, type: 3}
+  AnimateOnTap: 0
+--- !u!61 &1976088987
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1976088983}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 20.51}
+    newSize: {x: 20.48, y: 19.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.48, y: 20.51}
+  m_EdgeRadius: 0
 --- !u!1 &1990173321
 GameObject:
   m_ObjectHideFlags: 0
@@ -9662,6 +10195,8 @@ GameObject:
   - component: {fileID: 2002800310}
   - component: {fileID: 2002800311}
   - component: {fileID: 2002800312}
+  - component: {fileID: 2002800314}
+  - component: {fileID: 2002800313}
   m_Layer: 0
   m_Name: plane
   m_TagString: Untagged
@@ -9746,6 +10281,45 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2002800313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2002800309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf94e68b1149e274096ef1a86781ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Plane
+  OnTapSound: {fileID: 8300000, guid: 0d149ab7ca89827418b4e0b22b7a1137, type: 3}
+  AnimateOnTap: 0
+--- !u!61 &2002800314
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2002800309}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 19.51}
+    newSize: {x: 20.48, y: 19.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.48, y: 19.51}
+  m_EdgeRadius: 0
 --- !u!1 &2005100035
 GameObject:
   m_ObjectHideFlags: 0
@@ -9756,6 +10330,8 @@ GameObject:
   - component: {fileID: 2005100036}
   - component: {fileID: 2005100037}
   - component: {fileID: 2005100038}
+  - component: {fileID: 2005100040}
+  - component: {fileID: 2005100039}
   m_Layer: 0
   m_Name: whale2
   m_TagString: Untagged
@@ -9840,6 +10416,45 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2005100039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2005100035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf94e68b1149e274096ef1a86781ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Ship
+  OnTapSound: {fileID: 8300000, guid: f3d4815c2cebf224e8622fb714b6e254, type: 3}
+  AnimateOnTap: 0
+--- !u!61 &2005100040
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2005100035}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 14.17}
+    newSize: {x: 20.48, y: 13.4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.48, y: 14.17}
+  m_EdgeRadius: 0
 --- !u!1 &2013655615
 GameObject:
   m_ObjectHideFlags: 0

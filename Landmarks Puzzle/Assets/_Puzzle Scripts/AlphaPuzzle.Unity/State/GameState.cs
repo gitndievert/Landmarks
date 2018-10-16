@@ -11,6 +11,7 @@ namespace AlphaPuzzle.State
         public static Settings SettingsData = new Settings();
         public static string SavePath = Application.persistentDataPath + "SettingsInfo.dat";
         public static bool DragEnabled = true;
+        public static bool IsOverGameObject;
 
         public static void SaveData()
         {
