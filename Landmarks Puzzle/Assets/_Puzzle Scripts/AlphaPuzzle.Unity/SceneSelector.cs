@@ -9,6 +9,7 @@ public class SceneSelector : DSingle<SceneSelector>
 {
     public const float BOARD_CAMERA_SIZE = 8.5f;
     public const float MAP_CAMERA_SIZE = 9f;
+    public const float PUZZLE_MUSIC_VOL = .2f;
 
     public bool StartPuzzle = false;
     public Node CurrentNode;    
@@ -24,6 +25,7 @@ public class SceneSelector : DSingle<SceneSelector>
     public GameObject MapInstructions;
 
     private BoardType _selectedBoardType;
+    private Music _music;
     private readonly string[] _selectedFreeLetter = new string[2];
 
     private readonly Vector3 _countingBoardPos = new Vector3(-90f, 0 ,-10f);
@@ -31,8 +33,8 @@ public class SceneSelector : DSingle<SceneSelector>
     private readonly Vector3 _mapStartingPos = new Vector3(86.8f,6.5f,-10f);
     
     protected override void PAwake()
-    {        
-        
+    {
+        _music = Music.Instance;
     }
 
     protected override void PDestroy()
@@ -53,7 +55,7 @@ public class SceneSelector : DSingle<SceneSelector>
     {
         _selectedBoardType = gameBoardType;        
         MoveToMapBoard(_mapStartingPos);
-        Music.Instance.PlayMusicTrack(MusicTracks.Map);
+        _music.PlayMusicTrack(MusicTracks.Map);
         if (MapInstructions != null)
         {
             //This is where the prefab will pop out
@@ -78,14 +80,14 @@ public class SceneSelector : DSingle<SceneSelector>
 
     public void MoveToPuzzleBoard()
     {
-        StopAllCoroutines();        
+        StopAllCoroutines();
+        MapVolume(PUZZLE_MUSIC_VOL);
         CurrentBoard = BoardType.Puzzle;
         Camera.main.orthographicSize = BOARD_CAMERA_SIZE;
         IsCameraLocked = true;
         //Banner Ads
         //AdMobBanners.Instance.HideAdBanner();        
-        //UnityAdServices.Instance.PauseAd();       
-        
+        //UnityAdServices.Instance.PauseAd();               
         MoveCamera(_puzzleBoardPos, false);
         PuzzleView.SetActive(true);
         InGameUI.SetActive(true);
@@ -111,6 +113,8 @@ public class SceneSelector : DSingle<SceneSelector>
         //banner.UnPauseAd();
         Camera.main.transform.position = lastPos;
 
+        MapVolume(GameState.SettingsData.MusicVolume);
+
         InGameUI.SetActive(false);
         MapViewUI.SetActive(true);
         PuzzleView.SetActive(false);
@@ -127,5 +131,12 @@ public class SceneSelector : DSingle<SceneSelector>
         yield return new WaitForSeconds(3f);
         HandAnimation.SetActive(false);
     }   
+
+    private void MapVolume(float vol)
+    {
+        var player = _music.Player;
+        float curvol = player.getGlobalVolume();
+        player.setGlobalVolume(vol);
+    }
 
 }

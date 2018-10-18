@@ -8,6 +8,11 @@ public class Music : PSingle<Music>, IAudio
     public float VolumeLevel { get; set; }            
     public const float FadeStopTime = 0.5f;
 
+    public grumbleAMP Player
+    {
+        get { return _grumble;  }
+    }
+
     [HideInInspector]
     public bool MusicEnabled = true;
 
@@ -22,11 +27,6 @@ public class Music : PSingle<Music>, IAudio
     {
 
     }        
-
-    void Update()
-    {
-        
-    }
 
     public void PlayMusicTrack(MusicTracks track)
     {
