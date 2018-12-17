@@ -387,15 +387,6 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>F:/Programs/Unity3D/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="WP8Native">
-      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/Plugins/WP8Native.dll</HintPath>
-    </Reference>
-    <Reference Include="WP8PopUps">
-      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/Plugins/WP8PopUps.dll</HintPath>
-    </Reference>
-    <Reference Include="WSANative">
-      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/Plugins/WSANative.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/Nate/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>

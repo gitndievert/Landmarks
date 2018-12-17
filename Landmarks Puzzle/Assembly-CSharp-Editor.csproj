@@ -67,7 +67,6 @@
     <Compile Include="Assets\WPAssets\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
     <Compile Include="Assets\WPAssets\JMO Assets\Cartoon FX\Editor\CFX_InspectorHelpEditor.cs" />
     <Compile Include="Assets\WPAssets\JMO Assets\Cartoon FX\Editor\CFX_SpawnSystemEditor.cs" />
-    <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.88.0.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -328,27 +327,6 @@
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>F:/Programs/Unity3D/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.IOSResolver_v1.2.88.0">
-      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.88.0.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.JarResolver_v1.2.88.0">
-      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.88.0.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandler">
-      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandlerImpl_v1.2.88.0">
-      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.88.0.dll</HintPath>
-    </Reference>
-    <Reference Include="WP8Native">
-      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/Plugins/WP8Native.dll</HintPath>
-    </Reference>
-    <Reference Include="WP8PopUps">
-      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/Plugins/WP8PopUps.dll</HintPath>
-    </Reference>
-    <Reference Include="WSANative">
-      <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/Plugins/WSANative.dll</HintPath>
     </Reference>
     <Reference Include="JMOAssets">
       <HintPath>F:/PROJECTS/Landmarks/Landmarks Puzzle/Assets/WPAssets/JMO Assets/Editor/JMOAssets.dll</HintPath>
